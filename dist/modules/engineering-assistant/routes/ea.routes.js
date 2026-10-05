@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const chat_controller_1 = require("../controllers/chat.controller");
+const history_controller_1 = require("../controllers/history.controller");
+const upload_middleware_1 = require("../../../middleware/upload.middleware");
+const auth_middleware_1 = require("../../../middleware/auth.middleware");
+const router = (0, express_1.Router)();
+router.post('/chat', auth_middleware_1.authenticateToken, upload_middleware_1.upload.single('file'), chat_controller_1.ChatController.sendMessage);
+router.get('/chat-history', auth_middleware_1.authenticateToken, history_controller_1.HistoryController.getHistory);
+exports.default = router;

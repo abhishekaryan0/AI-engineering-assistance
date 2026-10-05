@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const auth_middleware_1 = require("../../../../middleware/auth.middleware");
+const operational_recommendations_controller_1 = require("../controllers/operational-recommendations.controller");
+const router = (0, express_1.Router)();
+router.get('/operational-recommendations', auth_middleware_1.authenticateToken, operational_recommendations_controller_1.OperationalRecommendationsController.getAllSuggestions);
+router.post('/operation-recommendations-assistant/:id', auth_middleware_1.authenticateToken, operational_recommendations_controller_1.OperationalRecommendationsController.askAssistant);
+router.patch('/operational-recommendations/:id/status', auth_middleware_1.authenticateToken, operational_recommendations_controller_1.OperationalRecommendationsController.updateStatusAndReason);
+router.post('/operational-take-action/:id/work-items', auth_middleware_1.authenticateToken, operational_recommendations_controller_1.OperationalRecommendationsController.createWorkItem);
+exports.default = router;

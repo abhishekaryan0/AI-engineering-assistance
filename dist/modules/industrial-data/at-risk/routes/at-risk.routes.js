@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const auth_middleware_1 = require("../../../../middleware/auth.middleware");
+const at_risk_controller_1 = require("../controllers/at-risk.controller");
+const router = (0, express_1.Router)();
+router.post('/at-risk-assistant/:id', auth_middleware_1.authenticateToken, at_risk_controller_1.AtRiskAssistantController.atRiskAssistant);
+router.get('/at-risk-assets', auth_middleware_1.authenticateToken, at_risk_controller_1.AtRiskAssistantController.getAtRiskAssets);
+router.patch('/at-risk-dismiss-acknowledge/:id/status', auth_middleware_1.authenticateToken, at_risk_controller_1.AtRiskAssistantController.updateAlertStatus);
+router.post('/at-risk-take-action/:id/work-items', auth_middleware_1.authenticateToken, at_risk_controller_1.AtRiskAssistantController.createWorkItem);
+exports.default = router;

@@ -1,0 +1,13 @@
+node_modules
+# Keep environment variables out of version control
+.env
+README.md
+/readfiles
+coverage_output.txt
+/coverage
+coverage_report.txt
+/src/generated/prisma
+logs/
+snowflake.log
+
+

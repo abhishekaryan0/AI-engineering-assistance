@@ -1,0 +1,61 @@
+{
+  "name": "agentic-energy-backend",
+  "version": "2.0.0",
+  "description": "Professional microservices architecture for EA (Agentic Energy) backend",
+  "private": true,
+  "workspaces": [
+    "packages/shared",
+    "packages/api-gateway",
+    "packages/ea-module",
+    "packages/data-apis"
+  ],
+  "scripts": {
+    "build": "tsc && npm run copy-assets",
+    "copy-assets": "mkdir -p dist/modules/glossary/data && cp -r src/modules/glossary/data/* dist/modules/glossary/data/",
+    "dev": "ts-node-dev src/app.ts",
+    "start": "node dist/app.js",
+    "lint": "npm run lint -ws",
+    "lint:fix": "npm run lint:fix -ws",
+    "test": "npx jest",
+    "test:coverage": "npx jest --coverage",
+    "clean": "rm -rf dist node_modules packages/*/node_modules packages/*/dist",
+    "install-all": "npm install && npm install -ws"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/express-fileupload": "^1.5.1",
+    "@types/jest": "^30.0.0",
+    "@types/lodash": "^4.17.24",
+    "@types/multer": "^2.0.0",
+    "@types/pdf-parse": "^1.1.5",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "fast-xml-parser": "^5.4.2",
+    "qs": "^6.14.1",
+    "form-data": "^4.0.0",
+    "bn.js": "^5.2.1",
+    "asn1.js": "^5.4.1"
+  },
+  "engines": {
+    "node": ">=22.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-athena": "^3.1004.0",
+    "@aws-sdk/client-s3": "^3.1004.0",
+    "lodash": "^4.17.23",
+    "mammoth": "^1.11.0",
+    "multer": "^2.0.2",
+    "node-fetch": "^2.7.0",
+    "parquetjs-lite": "^0.8.7",
+    "pdf-parse": "^2.4.5",
+    "pg": "^8.18.0",
+    "sharp": "^0.34.5",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-latest/xlsx-latest.tgz"
+  }
+}

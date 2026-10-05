@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const auth_middleware_1 = require("../../../../middleware/auth.middleware");
+const anomaly_reviews_controller_1 = require("../controllers/anomaly-reviews.controller");
+const router = (0, express_1.Router)();
+router.get('/get-anomaly-reviews', auth_middleware_1.authenticateToken, anomaly_reviews_controller_1.AnomalyReviewController.getAnomalyReviews);
+router.patch('/anomaly-reviews/:id/status', auth_middleware_1.authenticateToken, anomaly_reviews_controller_1.AnomalyReviewController.updateStatus);
+router.post('/anomaly-reviews/:id/action', auth_middleware_1.authenticateToken, anomaly_reviews_controller_1.AnomalyReviewController.takeAction);
+router.post('/anomaly-reviews-assistant/:id', auth_middleware_1.authenticateToken, anomaly_reviews_controller_1.AnomalyReviewController.askAssistant);
+exports.default = router;

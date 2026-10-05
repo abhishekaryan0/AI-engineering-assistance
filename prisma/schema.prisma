@@ -1,0 +1,200 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions"]
+}
+
+datasource db {
+  provider   = "postgresql"
+  url        = env("DATABASE_URL")
+  extensions = [uuid_ossp(map: "uuid-ossp", schema: "public"), vector]
+}
+
+model alert_actions {
+  id                    String              @id @db.Uuid
+  title                 String
+  audience              Json?
+  location              String?
+  scheduled_date        DateTime?
+  description           String?
+  communication_methods Json?
+  organization_id       String                  @db.Uuid
+  created_at            DateTime            @default(now())
+  anomaly_suggestions   anomaly_suggestions @relation(fields: [id], references: [id])
+}
+
+model anomaly_review {
+  well_id                String                  @db.VarChar(100)
+  event_date             DateTime                @db.Date
+  detected_at            DateTime?               @db.Timestamp(6)
+  anomaly_code           String                  @db.VarChar(100)
+  category               String?                 @db.VarChar(50)
+  severity               String?                 @db.VarChar(20)
+  title                  String?                 @db.VarChar(200)
+  ui_text                Json?
+  impact_value           Float?
+  chart_data             Json?
+  status                 String?                 @db.VarChar(50)
+  id                     String                  @id @default(dbgenerated("uuid_generate_v4()")) @db.Uuid
+  reason                 String?
+  impact_metrics         Json?
+  organization_id        String                  @db.Uuid
+  anomaly_review_actions anomaly_review_actions?
+
+  @@unique([well_id, anomaly_code, event_date], map: "anomaly_review_unique_well_event_anomaly")
+  @@unique([well_id, anomaly_code, event_date], map: "unique_anomaly_per_day")
+}
+
+model anomaly_review_actions {
+  id                    String         @id @db.Uuid
+  title                 String
+  audience              Json?
+  location              String?
+  scheduled_date        DateTime?
+  description           String?
+  communication_methods Json?
+  organization_id       String                  @db.Uuid
+  created_at            DateTime       @default(now())
+  anomaly_review        anomaly_review @relation(fields: [id], references: [id])
+}
+
+model anomaly_suggestions {
+  id                 String         @id @db.Uuid
+  well_id            String         @db.VarChar(50)
+  timestamp          DateTime       @db.Timestamp(6)
+  alert_title        String?        @db.VarChar(255)
+  severity           String?        @db.VarChar(50)
+  status             String?        @db.VarChar(50)
+  confidence         String?        @db.VarChar(20)
+  description        String?
+  suggested_actions  Json?
+  explanation        String?
+  created_at         DateTime?      @default(now()) @db.Timestamp(6)
+  historical_context Json?
+  risk_analysis      Json?
+  asset_id           String?        @db.VarChar(50)
+  reason             String?
+  raw_anomaly_data   Json?
+  lift_type          String?        @db.VarChar(50)
+  category           String?        @db.VarChar(50)
+  well_status        String?        @default("RUNNING") @db.VarChar(50)
+  organization_id    String         @db.Uuid
+  alert_actions      alert_actions?
+
+  @@index([well_status, timestamp(sort: Desc)], map: "idx_well_status_as")
+}
+
+model operation_actions {
+  id                    String               @id @db.VarChar(50)
+  title                 String
+  audience              Json?
+  location              String?
+  scheduled_date        DateTime?
+  description           String?
+  communication_methods Json?
+  organization_id       String                  @db.Uuid
+  created_at            DateTime             @default(now())
+  operation_suggestion  operation_suggestion @relation(fields: [id], references: [id])
+}
+
+model operation_suggestion {
+  id                          String             @id @db.VarChar(50)
+  well_id                     String             @db.VarChar(50)
+  category                    String?            @default("Production") @db.VarChar(50)
+  action                      String             @db.VarChar(255)
+  status                      String?            @default("New") @db.VarChar(50)
+  priority                    String?            @default("HIGH") @db.VarChar(50)
+  confidence_percent          Float?
+  production_increase_bbl_day Float?
+  production_increase_percent Float?
+  daily_expense_benefit_usd   Float?
+  implementation_cost_usd     Float?
+  net_daily_benefit_usd       Float?
+  asset_value_increase_usd    Float?
+  time_reduced_hours          Float?
+  detailed_analysis           String?
+  current_performance         String?            @db.VarChar(255)
+  optimal_performance         String?            @db.VarChar(255)
+  conservative_approach       String?
+  aggressive_optimization     String?
+  hybrid_model                String?
+  recommended_model           String?            @db.VarChar(50)
+  citations                   String?
+  referenced_data             String?
+  supporting_analysis         String?
+  data_quality                String?            @db.VarChar(100)
+  reason                      String?
+  expected_impact             String?            @db.VarChar(500)
+  metrics_json                String?
+  created_at                  DateTime?          @default(now()) @db.Timestamp(6)
+  updated_at                  DateTime?          @default(now()) @db.Timestamp(6)
+  status_reason               String?
+  organization_id             String             @db.Uuid
+  operation_actions           operation_actions?
+}
+
+model chat_document_chunks {
+  id        String                 @id(map: "document_chunks_pkey") @default(uuid())
+  organization_id    String                 @db.VarChar(50)
+  content   String
+  metadata  Json
+  fileHash  String
+  embedding Unsupported("vector")?
+  createdAt DateTime               @default(now())
+
+  @@index([organization_id], map: "idx_chat_doc_chunks_org")
+}
+
+model chat_files {
+  id            String         @id(map: "File_pkey") @default(uuid())
+  organization_id        String         @db.VarChar(50)
+  messageId     String?
+  filename      String
+  mimeType      String
+  s3Key         String
+  createdAt     DateTime       @default(now())
+  textContent   String?
+  chat_messages chat_messages? @relation(fields: [messageId], references: [id], map: "File_messageId_fkey")
+
+  @@index([organization_id], map: "idx_chat_files_org")
+}
+
+model chat_messages {
+  id            String        @id(map: "Message_pkey") @default(uuid())
+  organization_id        String        @db.VarChar(50)
+  sessionId     String
+  role          String
+  content       String
+  suggestions   Json?
+  createdAt     DateTime      @default(now())
+  chartData     Json?
+  chat_files    chat_files[]
+  chat_sessions chat_sessions @relation(fields: [sessionId], references: [id], onDelete: Cascade, map: "Message_sessionId_fkey")
+
+  @@index([organization_id, sessionId, createdAt(sort: Asc)], map: "idx_chat_msgs_org_session")
+}
+
+model chat_sessions {
+  id            String          @id(map: "Session_pkey") @default(uuid())
+  organization_id        String          @db.VarChar(50)
+  title         String          @default("New Chat")
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
+  userId        String
+  chat_messages chat_messages[]
+
+  @@index([organization_id, userId, createdAt(sort: Desc)], map: "idx_chat_sessions_org_user")
+}
+
+model chat_user_preferences {
+  userId           String   @id
+  organization_id           String   @db.VarChar(50)
+  preferred_format String?  @default("text")
+  frequent_topics  Json?
+  usage_stats      Json?    // { "smart_action": 5, "research": 12, "files": 2 }
+  style_alignment  String?  @default("professional") // concise, detailed, technical
+  extracted_memory Json?    // Memory 
+  last_updated     DateTime @default(now()) @updatedAt
+  last_active      DateTime @default(now())
+
+  @@index([organization_id], map: "idx_chat_user_prefs_org")
+}

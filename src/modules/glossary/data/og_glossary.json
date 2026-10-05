@@ -1,0 +1,2546 @@
+[
+  {
+    "term": "Demulsifier (Emulsion Breaker)",
+    "definition": "A chemical added to separate oil from water. Without it, the fluid might look like mayonnaise.",
+    "related": "Separation",
+    "source": "json"
+  },
+  {
+    "term": "Free Water Knockout (FWKO)",
+    "definition": "A large vessel used as the first step of separation to remove the bulk of the water that separates easily from oil.",
+    "related": "Separator, Three-Phase",
+    "source": "json"
+  },
+  {
+    "term": "Vapor Recovery Unit (VRU)",
+    "definition": "A small compressor that sucks low-pressure gas off the top of tanks (instead of flaring it) to sell it.",
+    "related": "Emissions, Recovery",
+    "source": "json"
+  },
+  {
+    "term": "Inflow Performance (IPR)",
+    "definition": "A curve representing the reservoir's ability to deliver fluid to the wellbore at a given bottom-hole pressure.",
+    "related": "Production Eng",
+    "source": "json"
+  },
+  {
+    "term": "Coiled Tubing Unit (CTU)",
+    "definition": "A truck with a massive reel of continuous steel pipe. It runs pipe into the well while it's still under pressure to clean or stimulate it.",
+    "related": "Coil, Intervention",
+    "source": "json"
+  },
+  {
+    "term": "Corrosion Inhibitor (CI)",
+    "definition": "A chemical that coats the steel inside the well to prevent rust and pitting caused by salt water and acid gases.",
+    "related": "Asset Integrity",
+    "source": "json"
+  },
+  {
+    "term": "Parts Per Million (PPM)",
+    "definition": "The standard unit for measuring chemical concentration. (e.g., \"We need 500 ppm of inhibitor\").",
+    "related": "Dosage",
+    "source": "json"
+  },
+  {
+    "term": "Pig Launcher/Receiver",
+    "definition": "A pressurized trap on a pipeline used to insert or remove a \"pig\" (cleaning tool) without stopping flow.",
+    "related": "Pipeline, Trap",
+    "source": "json"
+  },
+  {
+    "term": "Encapsulated Chemical",
+    "definition": "Solid chemical pills that release their payload slowly over time or only when crushed downhole.",
+    "related": "Extended Release",
+    "source": "json"
+  },
+  {
+    "term": "Sanded Up / Sanded In",
+    "definition": "When sand from the reservoir enters the wellbore and buries the pump or fills the bottom of the casing.",
+    "related": "Solids Issue",
+    "source": "json"
+  },
+  {
+    "term": "Efficiency (Pump eff)",
+    "definition": "The ratio of how much fluid the pump actually moved vs. how much it should have moved based on its size and speed.",
+    "related": "Diagnostics",
+    "source": "json"
+  },
+  {
+    "term": "Directional Drilling",
+    "definition": "Drilling a well at an angle or curve to hit a specific target (not just straight down).",
+    "related": "Horizontal Drilling, HDD",
+    "source": "json"
+  },
+  {
+    "term": "Allocated Production",
+    "definition": "The calculated amount of oil/gas assigned to a specific well based on the total sales at the battery, rather than what the well meter read (difference due to shrinkage/errors).",
+    "related": "Lease Manager",
+    "source": "json"
+  },
+  {
+    "term": "Directional Drilling",
+    "definition": "Drilling a well at an angle or curve to hit a specific target (not just straight down).",
+    "related": "Horizontal Drilling, HDD",
+    "source": "json"
+  },
+  {
+    "term": "Beam Lift / Rod Pump",
+    "definition": "The classic \"nodding donkey.\" A surface motor moves a steel beam up and down, which pulls a rod string and a downhole pump to lift oil.",
+    "related": "Pumpjack, Sucker Rods",
+    "source": "json"
+  },
+  {
+    "term": "Continuous Injection",
+    "definition": "Injecting a tiny amount of chemical every second of the day to maintain a constant protective film.",
+    "related": "Maintenance",
+    "source": "json"
+  },
+  {
+    "term": "Measured Depth (MD)",
+    "definition": "The total length of the wellbore (including all curves/turns).",
+    "related": "TVD (True Vertical Depth)",
+    "source": "json"
+  },
+  {
+    "term": "Cathodic Protection",
+    "definition": "An electrical system used to prevent rust on pipelines and steel tanks by applying a small electrical current.",
+    "related": "Facilities Eng",
+    "source": "json"
+  },
+  {
+    "term": "Voidage Replacement",
+    "definition": "Ensuring that for every barrel of fluid removed from the reservoir, a barrel of water/gas is injected to maintain pressure.",
+    "related": "Production Eng",
+    "source": "json"
+  },
+  {
+    "term": "Measured Depth (MD)",
+    "definition": "The total length of the wellbore (including all curves/turns).",
+    "related": "TVD (True Vertical Depth)",
+    "source": "json"
+  },
+  {
+    "term": "Separator (2-Phase)",
+    "definition": "A vessel that separates the flow into two streams: Gas and Liquid (oil+water mixed).",
+    "related": "High Pressure, Low Pressure",
+    "source": "json"
+  },
+  {
+    "term": "Separator (3-Phase)",
+    "definition": "A vessel that separates the flow into three streams: Gas, Oil, and Water.",
+    "related": "Test Separator, Production",
+    "source": "json"
+  },
+  {
+    "term": "Wireline (Electric)",
+    "definition": "A cable with electrical conductors used to lower logging tools or perforating guns.",
+    "related": "E-Line, Logging",
+    "source": "json"
+  },
+  {
+    "term": "Foamer / Soap Stick",
+    "definition": "A surfactant stick dropped into gas wells. It turns water into light foam so the weak gas pressure can lift it out.",
+    "related": "Liquid Loading",
+    "source": "json"
+  },
+  {
+    "term": "Pressure Drop (ΔP)",
+    "definition": "The loss of pressure as fluid moves through pipe, fittings, or restrictors. Facilities engineers size pipe to minimize this.",
+    "related": "Facilities Eng",
+    "source": "json"
+  },
+  {
+    "term": "Dynamometer (Dyno)",
+    "definition": "A device used to measure the load on the pumpjack rod string. The data creates a \"dyno card\" to diagnose downhole pump problems.",
+    "related": "Card, Load Cell",
+    "source": "json"
+  },
+  {
+    "term": "Rig Up / Rig Down",
+    "definition": "Assembling or disassembling the drilling rig.",
+    "related": "Mobilization, Demob",
+    "source": "json"
+  },
+  {
+    "term": "ASME Section VIII",
+    "definition": "The engineering code that governs the design and safety of pressurized vessels (separators, heater treaters). Essential for compliance.",
+    "related": "Facilities Eng",
+    "source": "json"
+  },
+  {
+    "term": "Critical Velocity",
+    "definition": "The minimum gas speed required in the tubing to lift liquids (water/oil) to the surface without them falling back down (loading up).",
+    "related": "Production Eng",
+    "source": "json"
+  },
+  {
+    "term": "Intermittent Lift",
+    "definition": "Cycling a well on and off (e.g., Plunger Lift or Timer) to build pressure, rather than flowing continuously.",
+    "related": "Production Eng",
+    "source": "json"
+  },
+  {
+    "term": "Pound (Gas/Fluid)",
+    "definition": "The shock felt/heard in a pumpjack when the pump is not filling completely (hitting fluid on the downstroke). Causes rod failure.",
+    "related": "Pumper",
+    "source": "json"
+  },
+  {
+    "term": "Rig Up / Rig Down",
+    "definition": "Assembling or disassembling the drilling rig.",
+    "related": "Mobilization, Demob",
+    "source": "json"
+  },
+  {
+    "term": "Dehydrator (Dehy)",
+    "definition": "A vessel that removes water vapor from natural gas, usually using glycol (which absorbs water like a sponge).",
+    "related": "Glycol Unit, TEG",
+    "source": "json"
+  },
+  {
+    "term": "Corrosion Pitting",
+    "definition": "Small, deep holes eaten into the steel pipe by rust. \"Pitting\" is dangerous because it causes leaks even if the rest of the pipe looks good.",
+    "related": "Casing/Tubing Failure",
+    "source": "json"
+  },
+  {
+    "term": "Failure Frequency",
+    "definition": "How often a specific well fails (e.g., \"0.5 failures per year\").",
+    "related": "Reliability",
+    "source": "json"
+  },
+  {
+    "term": "Gathering System",
+    "definition": "The network of pipes that collects oil/gas from many wells to a central point.",
+    "related": "Midstream, Manifold",
+    "source": "json"
+  },
+  {
+    "term": "Lost Circulation",
+    "definition": "When drilling mud flows into cracks in the rock instead of returning to the surface.",
+    "related": "Thief Zone, LCM",
+    "source": "json"
+  },
+  {
+    "term": "BS&W (Grind Out)",
+    "definition": "Basic Sediment & Water. The specific test a pumper performs (using a centrifuge) to determine how much \"bad\" fluid is in the oil tank before selling.",
+    "related": "Lease Manager",
+    "source": "json"
+  },
+  {
+    "term": "Corrosion Coupon",
+    "definition": "A small metal strip inserted into a pipe to measure how fast the metal is rusting inside the system.",
+    "related": "Facilities Eng",
+    "source": "json"
+  },
+  {
+    "term": "Dynamometer Card",
+    "definition": "A graphical plot of the load on the pumpjack rod string. The shape of the \"card\" tells the engineer if the pump is full, gas-locked, or hitting bottom.",
+    "related": "Production Eng",
+    "source": "json"
+  },
+  {
+    "term": "Emulsion Breaker",
+    "definition": "A chemical injected into the flowline to help separate oil from water in the heater treater.",
+    "related": "Pumper / Facilities",
+    "source": "json"
+  },
+  {
+    "term": "Sweep Efficiency",
+    "definition": "How effectively water or gas injected into the reservoir pushes the oil toward the producing wells.",
+    "related": "Production Eng",
+    "source": "json"
+  },
+  {
+    "term": "Gathering System",
+    "definition": "The network of pipes that collects oil/gas from many wells to a central point.",
+    "related": "Midstream, Manifold",
+    "source": "json"
+  },
+  {
+    "term": "Lost Circulation",
+    "definition": "When drilling mud flows into cracks in the rock instead of returning to the surface.",
+    "related": "Thief Zone, LCM",
+    "source": "json"
+  },
+  {
+    "term": "Paraffin Solvent",
+    "definition": "A chemical (often Hot Oil or Xylene) used to dissolve wax buildup that clogs pipes.",
+    "related": "Flow Assurance",
+    "source": "json"
+  },
+  {
+    "term": "Scale Deposition",
+    "definition": "The buildup of hard mineral crust (like kidney stones) inside pipes or pumps, choking off flow.",
+    "related": "Flow Restriction",
+    "source": "json"
+  },
+  {
+    "term": "Horizontal Well",
+    "definition": "A well that turns 90 degrees and runs sideways through the oil-bearing rock.",
+    "related": "Directional Drilling, Lateral",
+    "source": "json"
+  },
+  {
+    "term": "Batch Treatment",
+    "definition": "Dumping a large volume of chemicals (corrosion inhibitor or biocide) down the well all at once, rather than dripping it continuously.",
+    "related": "Lease Manager",
+    "source": "json"
+  },
+  {
+    "term": "Artificial Lift",
+    "definition": "Technology used to help get oil to the surface when the reservoir pressure isn't strong enough naturally.",
+    "related": ", Gas Lift, ESP",
+    "source": "json"
+  },
+  {
+    "term": "Horizontal Well",
+    "definition": "A well that turns 90 degrees and runs sideways through the oil-bearing rock.",
+    "related": "Directional Drilling, Lateral",
+    "source": "json"
+  },
+  {
+    "term": "Wellhead Growth",
+    "definition": "When the casing heats up during production and expands, causing the wellhead to physically rise up a few inches.",
+    "related": "Thermal Expansion, Movement",
+    "source": "json"
+  },
+  {
+    "term": "Batch Treatment",
+    "definition": "Dumping a large amount of chemical down the well all at once (e.g., once a week). \"Shocking\" the system.",
+    "related": "vs. Continuous Injection",
+    "source": "json"
+  },
+  {
+    "term": "Scale Inhibitor",
+    "definition": "A chemical that prevents minerals (calcium/barium) from forming hard rock crusts inside the pipe.",
+    "related": "Flow Assurance",
+    "source": "json"
+  },
+  {
+    "term": "Fatigue Failure",
+    "definition": "Metal snapping because it was bent back and forth too many times (like a paperclip breaking). Common in rod pumps.",
+    "related": "Rod Part",
+    "source": "json"
+  },
+  {
+    "term": "Fish / Fishing",
+    "definition": "\"Fish\" is an object lost in the well (broken pipe, tool). \"Fishing\" is trying to get it out.",
+    "related": "Junk, Stuck Pipe",
+    "source": "json"
+  },
+  {
+    "term": "Heater Treater",
+    "definition": "A vessel that uses heat to separate oil, water, and gas.",
+    "related": "Separator, Emulsion",
+    "source": "json"
+  },
+  {
+    "term": "Injection Well",
+    "definition": "A well used to pump water or gas into the ground (to dispose of waste or boost pressure).",
+    "related": "Disposal Well, Waterflood",
+    "source": "json"
+  },
+  {
+    "term": "Produced Water",
+    "definition": "Salty, dirty water that comes out of the well along with the oil.",
+    "related": "Disposal, Brine",
+    "source": "json"
+  },
+  {
+    "term": "Unconventional",
+    "definition": "Resources requiring special tech (fracking/horizontal) to extract (e.g., Shale).",
+    "related": "Conventional, Tight",
+    "source": "json"
+  },
+  {
+    "term": "Blowdown Valve",
+    "definition": "A valve used to depressurize a vessel or line rapidly in an emergency or for maintenance.",
+    "related": "Pumper / Facilities",
+    "source": "json"
+  },
+  {
+    "term": "Liquid Loading",
+    "definition": "When the gas velocity drops too low to carry liquids out, causing water/oil to accumulate at the bottom and kill the well.",
+    "related": "Production Eng",
+    "source": "json"
+  },
+  {
+    "term": "Nodal Analysis",
+    "definition": "A mathematical method used to analyze the entire production system (Reservoir -> Tubing -> Separator) to find bottlenecks.",
+    "related": "Production Eng",
+    "source": "json"
+  },
+  {
+    "term": "Retention Time",
+    "definition": "The amount of time fluid stays inside a separator. Longer time = better separation of oil and water.",
+    "related": "Facilities Eng",
+    "source": "json"
+  },
+  {
+    "term": "Associated Gas",
+    "definition": "Natural gas found in contact with crude oil in the reservoir (often a byproduct).",
+    "related": "Gas Cap, Flaring",
+    "source": "json"
+  },
+  {
+    "term": "Christmas Tree",
+    "definition": "The assembly of valves and fittings on top of a completed well to control production.",
+    "related": "",
+    "source": "json"
+  },
+  {
+    "term": "Fish / Fishing",
+    "definition": "\"Fish\" is an object lost in the well (broken pipe, tool). \"Fishing\" is trying to get it out.",
+    "related": "Junk, Stuck Pipe",
+    "source": "json"
+  },
+  {
+    "term": "Heater Treater",
+    "definition": "A vessel that uses heat to separate oil, water, and gas.",
+    "related": "Separator, Emulsion",
+    "source": "json"
+  },
+  {
+    "term": "Injection Well",
+    "definition": "A well used to pump water or gas into the ground (to dispose of waste or boost pressure).",
+    "related": "Disposal Well, Waterflood",
+    "source": "json"
+  },
+  {
+    "term": "Produced Water",
+    "definition": "Salty, dirty water that comes out of the well along with the oil.",
+    "related": "Disposal, Brine",
+    "source": "json"
+  },
+  {
+    "term": "Unconventional",
+    "definition": "Resources requiring special tech (fracking/horizontal) to extract (e.g., Shale).",
+    "related": "Conventional, Tight",
+    "source": "json"
+  },
+  {
+    "term": "Counterbalance",
+    "definition": "Heavy weights on the crank arm of a pumpjack. They help lift the heavy rod string so the motor doesn't have to do all the work.",
+    "related": "Cranks, Weights",
+    "source": "json"
+  },
+  {
+    "term": "Heater Treater",
+    "definition": "A vessel that uses a fire tube (burner) to heat the oil emulsion, helping the water separate from the oil.",
+    "related": "Vertical/Horizontal, Treater",
+    "source": "json"
+  },
+  {
+    "term": "Hole in Tubing",
+    "definition": "A leak in the production pipe. The pump moves fluid, but it leaks back down into the well instead of reaching the surface.",
+    "related": "Efficiency Loss",
+    "source": "json"
+  },
+  {
+    "term": "Net Production",
+    "definition": "The amount of oil/gas belonging to the operator after paying royalties to the landowner.",
+    "related": "Revenue",
+    "source": "json"
+  },
+  {
+    "term": "Coiled Tubing",
+    "definition": "A very long, flexible steel pipe on a reel used for well interventions without a rig.",
+    "related": "Workover, Stimulation",
+    "source": "json"
+  },
+  {
+    "term": "Pig / Pigging",
+    "definition": "A device sent through a pipeline to clean it or inspect it.",
+    "related": "Scraper, Pipeline",
+    "source": "json"
+  },
+  {
+    "term": "Stripper Well",
+    "definition": "A well nearing the end of its life, producing very little oil (e.g., <10 bbls/day).",
+    "related": "Marginal Well",
+    "source": "json"
+  },
+  {
+    "term": "Tight Oil/Gas",
+    "definition": "Oil/Gas trapped in rock with very low permeability (needs fracking).",
+    "related": "Unconventional, Shale",
+    "source": "json"
+  },
+  {
+    "term": "Decline Curve",
+    "definition": "A graph showing the drop in production over time. Used to predict how much oil a well will produce in the future (EUR).",
+    "related": "Production Eng",
+    "source": "json"
+  },
+  {
+    "term": "Fall-Off Test",
+    "definition": "Shutting in an injection well and measuring how pressure drops to determine the properties of the reservoir rock.",
+    "related": "Production Eng",
+    "source": "json"
+  },
+  {
+    "term": "Coiled Tubing",
+    "definition": "A very long, flexible steel pipe on a reel used for well interventions without a rig.",
+    "related": "Workover, Stimulation",
+    "source": "json"
+  },
+  {
+    "term": "Pig / Pigging",
+    "definition": "A device sent through a pipeline to clean it or inspect it.",
+    "related": "Scraper, Pipeline",
+    "source": "json"
+  },
+  {
+    "term": "Stripper Well",
+    "definition": "A well nearing the end of its life, producing very little oil (e.g., <10 bbls/day).",
+    "related": "Marginal Well",
+    "source": "json"
+  },
+  {
+    "term": "Tight Oil/Gas",
+    "definition": "Oil/Gas trapped in rock with very low permeability (needs fracking).",
+    "related": "Unconventional, Shale",
+    "source": "json"
+  },
+  {
+    "term": "Jar / Jarring",
+    "definition": "A tool that delivers a heavy hammer blow downhole to knock a stuck object loose.",
+    "related": "Stuck Pipe, Fishing",
+    "source": "json"
+  },
+  {
+    "term": "Chemical Pump",
+    "definition": "A small, adjustable pump at the surface that slowly injects chemicals into the well 24/7.",
+    "related": "",
+    "source": "json"
+  },
+  {
+    "term": "H2S Scavenger",
+    "definition": "A chemical that reacts with deadly Hydrogen Sulfide gas and turns it into a harmless solid or liquid.",
+    "related": "Safety / Sweetening",
+    "source": "json"
+  },
+  {
+    "term": "Residual Test",
+    "definition": "Testing the water coming out of the well to see if there is still chemical in it. If zero, you aren't pumping enough.",
+    "related": "Verification",
+    "source": "json"
+  },
+  {
+    "term": "Unseated Pump",
+    "definition": "When the downhole pump pops out of its hold-down seal. It creates a loop where fluid just circulates in the well without coming to surface.",
+    "related": "Anchor Failure",
+    "source": "json"
+  },
+  {
+    "term": "Drill String",
+    "definition": "The entire column of drill pipe and tools that transmits rotation and fluid to the bit.",
+    "related": "Pipe, BHA",
+    "source": "json"
+  },
+  {
+    "term": "Hydrocarbons",
+    "definition": "The chemical name for oil and gas (molecules of Hydrogen and Carbon).",
+    "related": "Petroleum, Organic",
+    "source": "json"
+  },
+  {
+    "term": "Master Valve",
+    "definition": "The main shut-off valve on the Christmas Tree.",
+    "related": "Wing Valve, Swab Valve",
+    "source": "json"
+  },
+  {
+    "term": "Monkey Board",
+    "definition": "The small platform high up in the derrick where the derrickman works.",
+    "related": "Derrick, Tripping",
+    "source": "json"
+  },
+  {
+    "term": "Permeability",
+    "definition": "How easily fluid can flow through the rock (connected pores).",
+    "related": "Porosity, Flow",
+    "source": "json"
+  },
+  {
+    "term": "Shale Shaker",
+    "definition": "Vibrating screens that separate rock cuttings from the liquid drilling mud.",
+    "related": "Solids Control, Mud System",
+    "source": "json"
+  },
+  {
+    "term": "Stuffing Box",
+    "definition": "A seal at the wellhead that prevents leaks around the moving rod of a pumpjack.",
+    "related": "Packing, Rod Pump",
+    "source": "json"
+  },
+  {
+    "term": "Tank Battery",
+    "definition": "A group of tanks and separators where oil is processed and stored.",
+    "related": "Facility, Gathering",
+    "source": "json"
+  },
+  {
+    "term": "Bubble Point",
+    "definition": "The pressure at which gas begins to break out of the crude oil solution. Keeping pressure above this helps flow; dropping below it releases gas.",
+    "related": "Production Eng",
+    "source": "json"
+  },
+  {
+    "term": "Drill String",
+    "definition": "The entire column of drill pipe and tools that transmits rotation and fluid to the bit.",
+    "related": "Pipe, BHA",
+    "source": "json"
+  },
+  {
+    "term": "Hydrocarbons",
+    "definition": "The chemical name for oil and gas (molecules of Hydrogen and Carbon).",
+    "related": "Petroleum, Organic",
+    "source": "json"
+  },
+  {
+    "term": "Master Valve",
+    "definition": "The main shut-off valve on the Christmas Tree.",
+    "related": "Wing Valve, Swab Valve",
+    "source": "json"
+  },
+  {
+    "term": "Monkey Board",
+    "definition": "The small platform high up in the derrick where the derrickman works.",
+    "related": "Derrick, Tripping",
+    "source": "json"
+  },
+  {
+    "term": "Permeability",
+    "definition": "How easily fluid can flow through the rock (connected pores).",
+    "related": "Porosity, Flow",
+    "source": "json"
+  },
+  {
+    "term": "Shale Shaker",
+    "definition": "Vibrating screens that separate rock cuttings from the liquid drilling mud.",
+    "related": "Solids Control, Mud System",
+    "source": "json"
+  },
+  {
+    "term": "Stuffing Box",
+    "definition": "A seal at the wellhead that prevents leaks around the moving rod of a pumpjack.",
+    "related": "Packing, Rod Pump",
+    "source": "json"
+  },
+  {
+    "term": "Tank Battery",
+    "definition": "A group of tanks and separators where oil is processed and stored.",
+    "related": "Facility, Gathering",
+    "source": "json"
+  },
+  {
+    "term": "Plunger Lift",
+    "definition": "A method where a metal piston (plunger) falls to the bottom of the well, builds up gas pressure below it, and then shoots to the surface, pushing liquid up.",
+    "related": "Gas Well, Cycles",
+    "source": "json"
+  },
+  {
+    "term": "Stuffing Box",
+    "definition": "A seal assembly at the wellhead that prevents oil from leaking out around the moving polish rod.",
+    "related": "Packing, Leak",
+    "source": "json"
+  },
+  {
+    "term": "Walking Beam",
+    "definition": "The main horizontal beam on a pumpjack that seesaws up and down.",
+    "related": "Pitman Arm, Sampson Post",
+    "source": "json"
+  },
+  {
+    "term": "Slug Catcher",
+    "definition": "A large manifold or vessel designed to catch sudden large bursts (\"slugs\") of liquid coming from a pipeline to prevent equipment damage.",
+    "related": "Surge, Inlet",
+    "source": "json"
+  },
+  {
+    "term": "Fishing Tool",
+    "definition": "Specialized tools (overshots, spears, grapples) designed to grab broken equipment lost in the hole.",
+    "related": "Fish, Junk Basket",
+    "source": "json"
+  },
+  {
+    "term": "Pulling Unit",
+    "definition": "A mobile service rig (smaller than a drilling rig) used to pull rods and tubing out of the well for repairs.",
+    "related": "Workover Rig, Hoist",
+    "source": "json"
+  },
+  {
+    "term": "Recompletion",
+    "definition": "Entering an old well to perforate a different zone (layer of rock) that hasn't been produced yet.",
+    "related": "Uphole, Plug Back",
+    "source": "json"
+  },
+  {
+    "term": "Sand Bailing",
+    "definition": "Using a bucket-like tool on a wireline to scoop sand out of the bottom of a well.",
+    "related": "Wireline, Cleanout",
+    "source": "json"
+  },
+  {
+    "term": "Burned Motor",
+    "definition": "A failure in an ESP (Electric Submersible Pump) where the motor overheats and shorts out, usually due to lack of fluid cooling it.",
+    "related": "Electrical Failure",
+    "source": "json"
+  },
+  {
+    "term": "Decline Rate",
+    "definition": "The percentage speed at which production drops over time (e.g., \"This well declines 10% per year\").",
+    "related": "",
+    "source": "json"
+  },
+  {
+    "term": "Lifting Cost",
+    "definition": "The cost to get one barrel of oil to the surface (Electricity + Chemicals + Repairs). Does not include drilling costs.",
+    "related": "Profitability",
+    "source": "json"
+  },
+  {
+    "term": "Pulling Cost",
+    "definition": "The cost of hiring a workover rig to pull the equipment out of the hole for repair.",
+    "related": "Maintenance Cost",
+    "source": "json"
+  },
+  {
+    "term": "Circulation",
+    "definition": "Pumping drilling fluid (mud) down the drill pipe and back up the annulus to cool the bit and remove rock cuttings.",
+    "related": "Mud, Lost Circulation",
+    "source": "json"
+  },
+  {
+    "term": "Company Man",
+    "definition": "The representative of the oil company (Operator) on the rig; the boss of the site.",
+    "related": "Consultant, Operator",
+    "source": "json"
+  },
+  {
+    "term": "Perforating",
+    "definition": "Shooting holes in the casing and cement so oil can flow into the well.",
+    "related": "Guns, Completion",
+    "source": "json"
+  },
+  {
+    "term": "Stimulation",
+    "definition": "Any process to improve well flow (Acidizing, Fracking).",
+    "related": "Workover, Enhancement",
+    "source": "json"
+  },
+  {
+    "term": "Check Valve",
+    "definition": "A one-way valve that prevents fluid from flowing backward. Critical on flowlines to stop one well from flowing into another.",
+    "related": "Pumper / Facilities",
+    "source": "json"
+  },
+  {
+    "term": "Flow Regime",
+    "definition": "The pattern of fluid flow inside the pipe (e.g., Slug Flow, Mist Flow, Bubble Flow). Affects pressure drop and lift efficiency.",
+    "related": "Production Eng",
+    "source": "json"
+  },
+  {
+    "term": "Gauge Sheet",
+    "definition": "The daily log where the pumper records tank levels, pressures, and meter readings.",
+    "related": "Lease Manager",
+    "source": "json"
+  },
+  {
+    "term": "Skin Factor",
+    "definition": "A measure of damage near the wellbore (e.g., from drilling mud). Positive skin means flow is restricted; Negative skin means stimulated (fracked).",
+    "related": "Production Eng",
+    "source": "json"
+  },
+  {
+    "term": "Thief Hatch",
+    "definition": "The hatch on top of a tank. Pumpers open it to \"thief\" (take a sample) or gauge the level.",
+    "related": "Lease Manager",
+    "source": "json"
+  },
+  {
+    "term": "Abandonment",
+    "definition": "The permanent plugging of a well that is no longer productive to prevent leaks.",
+    "related": "P&A (Plug and Abandon), Decommissioning",
+    "source": "json"
+  },
+  {
+    "term": "API Gravity",
+    "definition": "A measure of how heavy or light a petroleum liquid is compared to water. Higher API = lighter oil (more valuable).",
+    "related": "Crude Oil, Specific Gravity",
+    "source": "json"
+  },
+  {
+    "term": "Circulation",
+    "definition": "Pumping drilling fluid (mud) down the drill pipe and back up the annulus to cool the bit and remove rock cuttings.",
+    "related": "Mud, Lost Circulation",
+    "source": "json"
+  },
+  {
+    "term": "Company Man",
+    "definition": "The representative of the oil company (Operator) on the rig; the boss of the site.",
+    "related": "Consultant, Operator",
+    "source": "json"
+  },
+  {
+    "term": "Perforating",
+    "definition": "Shooting holes in the casing and cement so oil can flow into the well.",
+    "related": "Guns, Completion",
+    "source": "json"
+  },
+  {
+    "term": "Stimulation",
+    "definition": "Any process to improve well flow (Acidizing, Fracking).",
+    "related": "Workover, Enhancement",
+    "source": "json"
+  },
+  {
+    "term": "Sucker Rods",
+    "definition": "The individual steel rods (usually 25ft long) screwed together to form the rod string.",
+    "related": "Fiberglass Rods, Pony Rods",
+    "source": "json"
+  },
+  {
+    "term": "Amine Plant",
+    "definition": "A processing unit that removes \"sour\" gases (H2S and CO2) from the natural gas stream using an amine chemical solution.",
+    "related": "Sweetening, Gas Treating",
+    "source": "json"
+  },
+  {
+    "term": "Flare Stack",
+    "definition": "A tall vertical pipe with a burner tip used to safely burn off excess or emergency gas relief.",
+    "related": "Relief System, Vent",
+    "source": "json"
+  },
+  {
+    "term": "Thief Hatch",
+    "definition": "The hatch on top of a tank that can be opened to take samples or gauge the fluid level.",
+    "related": "Vent Valve, Gauge",
+    "source": "json"
+  },
+  {
+    "term": "Bridge Plug",
+    "definition": "A tool set inside the casing to permanently or temporarily seal off the lower part of the well.",
+    "related": "Isolation, Packer",
+    "source": "json"
+  },
+  {
+    "term": "Squeeze Job",
+    "definition": "Pumping chemical down the well and pushing it into the rock formation. It slowly trickles back out over months to provide long-term protection.",
+    "related": "Stimulation",
+    "source": "json"
+  },
+  {
+    "term": "Fluid Pound",
+    "definition": "The physical shock felt when a pump plunger hits the liquid level violently on the downstroke. It destroys rods and gearboxes.",
+    "related": "Pump Damage",
+    "source": "json"
+  },
+  {
+    "term": "Parted Rods",
+    "definition": "When the sucker rod string snaps in half downhole. The pumpjack at the surface keeps moving, but nothing happens downhole.",
+    "related": "",
+    "source": "json"
+  },
+  {
+    "term": "Completion",
+    "definition": "The process of making a well ready to produce after drilling (installing pipes, perforating, etc.).",
+    "related": "Production, Casing",
+    "source": "json"
+  },
+  {
+    "term": "Condensate",
+    "definition": "A very light, high-quality liquid hydrocarbon that is a gas underground but liquid at the surface.",
+    "related": "NGLs, Wet Gas",
+    "source": "json"
+  },
+  {
+    "term": "Mouse Hole",
+    "definition": "A hole in the rig floor used to store the next piece of pipe before connecting it.",
+    "related": "Rat Hole, Rig Floor",
+    "source": "json"
+  },
+  {
+    "term": "Mud Logger",
+    "definition": "A technician who analyzes rock cuttings to tell the driller what they are drilling through.",
+    "related": "Geology, Gas Detector",
+    "source": "json"
+  },
+  {
+    "term": "Production",
+    "definition": "The phase where oil and gas are actively flowing from the well to sales.",
+    "related": "Operations, Flow",
+    "source": "json"
+  },
+  {
+    "term": "Round Trip",
+    "definition": "Pulling the entire drill string out of the hole and putting it back in (e.g., to change a bit).",
+    "related": "Tripping, POOH",
+    "source": "json"
+  },
+  {
+    "term": "Roustabout",
+    "definition": "A general laborer on a rig (cleaning, painting, moving heavy loads).",
+    "related": "Hand, Roughneck",
+    "source": "json"
+  },
+  {
+    "term": "Side-track",
+    "definition": "Drilling a new path from an existing wellbore (often to avoid a stuck fish).",
+    "related": "Whipstock, Deviation",
+    "source": "json"
+  },
+  {
+    "term": "Toolpusher",
+    "definition": "The rig manager; the contractor's boss on the rig (reports to the Company Man).",
+    "related": "Pusher, Rig Manager",
+    "source": "json"
+  },
+  {
+    "term": "Dump Valve",
+    "definition": "The automatic valve on a separator that opens to release liquid into the tanks when the level gets too high.",
+    "related": "Pumper",
+    "source": "json"
+  },
+  {
+    "term": "Nomination",
+    "definition": "The amount of gas/oil the lease manager tells the pipeline company they expect to deliver next month.",
+    "related": "Lease Manager",
+    "source": "json"
+  },
+  {
+    "term": "Run Ticket",
+    "definition": "The legal receipt generated when a truck hauls oil off the lease. It documents the volume, gravity, and water content.",
+    "related": "Lease Manager",
+    "source": "json"
+  },
+  {
+    "term": "Soap Stick",
+    "definition": "A solid stick of surfactant dropped into a well. It turns the water into foam, making it lighter and easier for the gas to lift out.",
+    "related": "Lease Manager",
+    "source": "json"
+  },
+  {
+    "term": "Turnaround",
+    "definition": "A planned shutdown of a facility for major maintenance, cleaning, and inspection.",
+    "related": "Facilities / Ops",
+    "source": "json"
+  },
+  {
+    "term": "Completion",
+    "definition": "The process of making a well ready to produce after drilling (installing pipes, perforating, etc.).",
+    "related": "Production, Casing",
+    "source": "json"
+  },
+  {
+    "term": "Condensate",
+    "definition": "A very light, high-quality liquid hydrocarbon that is a gas underground but liquid at the surface.",
+    "related": "NGLs, Wet Gas",
+    "source": "json"
+  },
+  {
+    "term": "Mouse Hole",
+    "definition": "A hole in the rig floor used to store the next piece of pipe before connecting it.",
+    "related": "Rat Hole, Rig Floor",
+    "source": "json"
+  },
+  {
+    "term": "Mud Logger",
+    "definition": "A technician who analyzes rock cuttings to tell the driller what they are drilling through.",
+    "related": "Geology, Gas Detector",
+    "source": "json"
+  },
+  {
+    "term": "Production",
+    "definition": "The phase where oil and gas are actively flowing from the well to sales.",
+    "related": "Operations, Flow",
+    "source": "json"
+  },
+  {
+    "term": "Round Trip",
+    "definition": "Pulling the entire drill string out of the hole and putting it back in (e.g., to change a bit).",
+    "related": "Tripping, POOH",
+    "source": "json"
+  },
+  {
+    "term": "Roustabout",
+    "definition": "A general laborer on a rig (cleaning, painting, moving heavy loads).",
+    "related": "Hand, Roughneck",
+    "source": "json"
+  },
+  {
+    "term": "Side-track",
+    "definition": "Drilling a new path from an existing wellbore (often to avoid a stuck fish).",
+    "related": "Whipstock, Deviation",
+    "source": "json"
+  },
+  {
+    "term": "Toolpusher",
+    "definition": "The rig manager; the contractor's boss on the rig (reports to the Company Man).",
+    "related": "Pusher, Rig Manager",
+    "source": "json"
+  },
+  {
+    "term": "Polish Rod",
+    "definition": "The very top, shiny, smooth rod in a rod pump string. It moves through the stuffing box seal without tearing it up.",
+    "related": "Stuffing Box, Rod String",
+    "source": "json"
+  },
+  {
+    "term": "Rod String",
+    "definition": "The long string of steel rods connecting the surface pumpjack to the downhole pump.",
+    "related": "Sucker Rods, Guided",
+    "source": "json"
+  },
+  {
+    "term": "Stock Tank",
+    "definition": "The atmospheric storage tanks (usually 400 bbls) where clean oil is stored before sale.",
+    "related": "Tank Battery, Storage",
+    "source": "json"
+  },
+  {
+    "term": "Hot Oiling",
+    "definition": "Pumping hot oil down the well to melt paraffin (wax) that has clogged the tubing.",
+    "related": "Paraffin, Maintenance",
+    "source": "json"
+  },
+  {
+    "term": "Kill Fluid",
+    "definition": "Heavy fluid (mud or brine) pumped into a well to create enough pressure to stop it from flowing so it can be worked on safely.",
+    "related": "Bullheading, Well Control",
+    "source": "json"
+  },
+  {
+    "term": "Lubricator",
+    "definition": "A tall pipe fitted on top of the wellhead during wireline ops. It holds the tool so you can insert it into the well under pressure.",
+    "related": "Wireline, Pressure Control",
+    "source": "json"
+  },
+  {
+    "term": "Packer Set",
+    "definition": "The action of expanding the rubber element of a packer to seal the well.",
+    "related": "Unset, Isolation",
+    "source": "json"
+  },
+  {
+    "term": "Surfactant",
+    "definition": "A chemical that lowers surface tension (makes water \"slippery\" and less sticky), helping it flow better.",
+    "related": "Flow Aid",
+    "source": "json"
+  },
+  {
+    "term": "Waxing Off",
+    "definition": "When paraffin (wax) builds up so much that it completely plugs the tubing.",
+    "related": "Temperature Issue",
+    "source": "json"
+  },
+  {
+    "term": "Crude Oil",
+    "definition": "Unrefined liquid petroleum.",
+    "related": "Hydrocarbons, Feedstock",
+    "source": "json"
+  },
+  {
+    "term": "Drawworks",
+    "definition": "The large winch/hoist on a drilling rig that raises and lowers the drill string.",
+    "related": "Hoist, Drilling Line",
+    "source": "json"
+  },
+  {
+    "term": "Formation",
+    "definition": "A specific layer of rock underground (e.g., \"The Eagle Ford Formation\").",
+    "related": "Reservoir, Zone",
+    "source": "json"
+  },
+  {
+    "term": "Geologist",
+    "definition": "The scientist who studies the rocks to find oil.",
+    "related": "Geo, Mud Logger",
+    "source": "json"
+  },
+  {
+    "term": "Mud Motor",
+    "definition": "A tool placed above the bit that spins the bit using fluid pressure (used in steering).",
+    "related": "Directional Drilling",
+    "source": "json"
+  },
+  {
+    "term": "Pup Joint",
+    "definition": "A short piece of pipe used to adjust the length of a string.",
+    "related": "Tubulars, Casing",
+    "source": "json"
+  },
+  {
+    "term": "Reservoir",
+    "definition": "Subsurface pool of hydrocarbons contained in porous or fractured rock formations.",
+    "related": "Trap, Field",
+    "source": "json"
+  },
+  {
+    "term": "Roughneck",
+    "definition": "A floor hand on a drilling rig; does the hard physical labor.",
+    "related": "Roustabout, Floor Hand",
+    "source": "json"
+  },
+  {
+    "term": "Scrubbing",
+    "definition": "Removing impurities (like CO2 or H2S) from gas.",
+    "related": "Sweetening, Treating",
+    "source": "json"
+  },
+  {
+    "term": "Separator",
+    "definition": "A vessel that separates the well stream into oil, gas, and water.",
+    "related": "Heater Treater, FWKO",
+    "source": "json"
+  },
+  {
+    "term": "Sweet Gas",
+    "definition": "Natural gas with no H2S; ready to be sold.",
+    "related": "Sour Gas, Sales Gas",
+    "source": "json"
+  },
+  {
+    "term": "Top Drive",
+    "definition": "A motor hanging in the derrick that turns the drill string (replaces the Kelly).",
+    "related": "Rotary Table, Drilling",
+    "source": "json"
+  },
+  {
+    "term": "Viscosity",
+    "definition": "Thickness of a fluid (Honey = high viscosity; Water = low).",
+    "related": "Fluid Properties, Flow",
+    "source": "json"
+  },
+  {
+    "term": "Whipstock",
+    "definition": "A wedge placed in the well to force the drill bit sideways (to start a side-track).",
+    "related": "Deviation, Kick-off",
+    "source": "json"
+  },
+  {
+    "term": "Anode Bed",
+    "definition": "A set of buried metal (sacrificial anodes) connected to pipes or tanks to absorb corrosion so the equipment doesn't rust. Part of Cathodic Protection.",
+    "related": "Facilities Eng",
+    "source": "json"
+  },
+  {
+    "term": "Fail-Safe",
+    "definition": "A valve or system designed to automatically close (or open) to a safe position if power or air pressure is lost.",
+    "related": "Facilities Eng",
+    "source": "json"
+  },
+  {
+    "term": "Interface",
+    "definition": "The specific level inside a separator where oil meets water. Controlling this level is crucial for clean separation.",
+    "related": "Pumper",
+    "source": "json"
+  },
+  {
+    "term": "LACT Unit",
+    "definition": "Lease Automatic Custody Transfer. The metering skid that automatically measures quality and quantity of oil as it transfers to a pipeline.",
+    "related": "Facilities / Pumper",
+    "source": "json"
+  },
+  {
+    "term": "Shrinkage",
+    "definition": "The loss of volume that occurs when light gases bubble out of crude oil as it moves from high pressure (separator) to low pressure (tank).",
+    "related": "Facilities Eng",
+    "source": "json"
+  },
+  {
+    "term": "Strapping",
+    "definition": "Measuring a storage tank with a tape measure to create a calibration table (Strapping Table) that converts inches of fluid into barrels.",
+    "related": "Pumper",
+    "source": "json"
+  },
+  {
+    "term": "Water Cut",
+    "definition": "The percentage of water in the total fluid produced. (e.g., 90% water cut means 9 barrels of water for every 1 barrel of oil).",
+    "related": "Production Eng",
+    "source": "json"
+  },
+  {
+    "term": "Acidizing",
+    "definition": "Pumping acid into the well to dissolve rock and help oil/gas flow better.",
+    "related": "Stimulation, Fracking",
+    "source": "json"
+  },
+  {
+    "term": "Beam Pump",
+    "definition": "The iconic \"nodding donkey\" pump seen on land. A type of artificial lift.",
+    "related": "Pumpjack, Rod Pump, Horsehead",
+    "source": "json"
+  },
+  {
+    "term": "Cementing",
+    "definition": "Pumping cement between the casing and the rock to seal the well and support the pipe.",
+    "related": "Casing, Zonal Isolation",
+    "source": "json"
+  },
+  {
+    "term": "Crude Oil",
+    "definition": "Unrefined liquid petroleum.",
+    "related": "Hydrocarbons, Feedstock",
+    "source": "json"
+  },
+  {
+    "term": "Drawworks",
+    "definition": "The large winch/hoist on a drilling rig that raises and lowers the drill string.",
+    "related": "Hoist, Drilling Line",
+    "source": "json"
+  },
+  {
+    "term": "Formation",
+    "definition": "A specific layer of rock underground (e.g., \"The Eagle Ford Formation\").",
+    "related": "Reservoir, Zone",
+    "source": "json"
+  },
+  {
+    "term": "Geologist",
+    "definition": "The scientist who studies the rocks to find oil.",
+    "related": "Geo, Mud Logger",
+    "source": "json"
+  },
+  {
+    "term": "Mud Motor",
+    "definition": "A tool placed above the bit that spins the bit using fluid pressure (used in steering).",
+    "related": "Directional Drilling",
+    "source": "json"
+  },
+  {
+    "term": "Pup Joint",
+    "definition": "A short piece of pipe used to adjust the length of a string.",
+    "related": "Tubulars, Casing",
+    "source": "json"
+  },
+  {
+    "term": "Reservoir",
+    "definition": "Subsurface pool of hydrocarbons contained in porous or fractured rock formations.",
+    "related": "Trap, Field",
+    "source": "json"
+  },
+  {
+    "term": "Roughneck",
+    "definition": "A floor hand on a drilling rig; does the hard physical labor.",
+    "related": "Roustabout, Floor Hand",
+    "source": "json"
+  },
+  {
+    "term": "Scrubbing",
+    "definition": "Removing impurities (like CO2 or H2S) from gas.",
+    "related": "Sweetening, Treating",
+    "source": "json"
+  },
+  {
+    "term": "Separator",
+    "definition": "A vessel that separates the well stream into oil, gas, and water.",
+    "related": "Heater Treater, FWKO",
+    "source": "json"
+  },
+  {
+    "term": "Sweet Gas",
+    "definition": "Natural gas with no H2S; ready to be sold.",
+    "related": "Sour Gas, Sales Gas",
+    "source": "json"
+  },
+  {
+    "term": "Top Drive",
+    "definition": "A motor hanging in the derrick that turns the drill string (replaces the Kelly).",
+    "related": "Rotary Table, Drilling",
+    "source": "json"
+  },
+  {
+    "term": "Viscosity",
+    "definition": "Thickness of a fluid (Honey = high viscosity; Water = low).",
+    "related": "Fluid Properties, Flow",
+    "source": "json"
+  },
+  {
+    "term": "Whipstock",
+    "definition": "A wedge placed in the well to force the drill bit sideways (to start a side-track).",
+    "related": "Deviation, Kick-off",
+    "source": "json"
+  },
+  {
+    "term": "Horsehead",
+    "definition": "The curved metal head at the front of the pumpjack beam. It keeps the rod pulling straight up and down.",
+    "related": "Walking Beam, Bridle",
+    "source": "json"
+  },
+  {
+    "term": "Gunbarrel",
+    "definition": "A tall settling tank where oil floats to the top and water settles to the bottom by gravity over time. Often the last step before storage.",
+    "related": "Wash Tank, Settling Tank",
+    "source": "json"
+  },
+  {
+    "term": "LACT Unit",
+    "definition": "Lease Automatic Custody Transfer. The \"cash register.\" An automated system that measures and tests the oil as it is sold into a pipeline.",
+    "related": "Metering, Sales Point",
+    "source": "json"
+  },
+  {
+    "term": "Bleed Off",
+    "definition": "Releasing pressure from the well slowly before opening it up for work.",
+    "related": "Blowdown, Depressurize",
+    "source": "json"
+  },
+  {
+    "term": "Frac Plug",
+    "definition": "A plug used during fracking to isolate one section of the well while another is being pressurized. It is usually drilled out later.",
+    "related": "Composite Plug, Perf-and-Plug",
+    "source": "json"
+  },
+  {
+    "term": "Slickline",
+    "definition": "A thin, non-electric wire used to lower mechanical tools (gauges, plugs) into the well. Cheaper than electric wireline.",
+    "related": "Wireline, Mechanical",
+    "source": "json"
+  },
+  {
+    "term": "Swab Unit",
+    "definition": "A truck with a winch used to lower a rubber cup (swab) into the tubing to lift water out and help the well start flowing gas.",
+    "related": "Unloading, Kick-off",
+    "source": "json"
+  },
+  {
+    "term": "Water Cut",
+    "definition": "The percentage of the total fluid that is water. (98% water cut means you pump 100 barrels to get 2 barrels of oil).",
+    "related": "Disposal Cost",
+    "source": "json"
+  },
+  {
+    "term": "Cuttings",
+    "definition": "Chips of rock brought to the surface by drilling mud; used to analyze geology.",
+    "related": "Mud Logging, Shale Shaker",
+    "source": "json"
+  },
+  {
+    "term": "Doghouse",
+    "definition": "The small room on the rig floor where the drilling crew rests or keeps records; the office.",
+    "related": "Rig Floor, Driller’s Console",
+    "source": "json"
+  },
+  {
+    "term": "Downhole",
+    "definition": "Refers to anything inside the wellbore (tools, equipment, conditions).",
+    "related": "Subsurface, Wireline",
+    "source": "json"
+  },
+  {
+    "term": "Flowline",
+    "definition": "The pipe connecting the wellhead to the separation equipment or tank battery.",
+    "related": "Pipeline, Gathering System",
+    "source": "json"
+  },
+  {
+    "term": "Flowback",
+    "definition": "The fluids (water, sand, chemicals) that come back out of a well after Fracking.",
+    "related": "Produced Water, Cleanup",
+    "source": "json"
+  },
+  {
+    "term": "Fracking",
+    "definition": "Hydraulic Fracturing. Pumping high-pressure fluid to crack rock and release oil/gas.",
+    "related": "Stimulation, Proppant",
+    "source": "json"
+  },
+  {
+    "term": "Gas Lift",
+    "definition": "Injecting gas into the fluid column to make it lighter and help it flow to the surface.",
+    "related": "Artificial Lift, Injection",
+    "source": "json"
+  },
+  {
+    "term": "Lay Down",
+    "definition": "To stop an operation or put pipe down from the rig floor.",
+    "related": "Pick Up, Rig Down",
+    "source": "json"
+  },
+  {
+    "term": "Manifold",
+    "definition": "A piping arrangement with valves to direct flow from multiple wells to different places.",
+    "related": "Headers, Gathering",
+    "source": "json"
+  },
+  {
+    "term": "Offshore",
+    "definition": "Operations located at sea.",
+    "related": "Platform, Subsea",
+    "source": "json"
+  },
+  {
+    "term": "Operator",
+    "definition": "The oil company that manages the well and pays the bills (e.g., Exxon, Shell).",
+    "related": "Service Company, Leaseholder",
+    "source": "json"
+  },
+  {
+    "term": "Pay Zone",
+    "definition": "The specific layer of rock that contains economically producible oil/gas.",
+    "related": "Reservoir, Net Pay",
+    "source": "json"
+  },
+  {
+    "term": "Platform",
+    "definition": "A fixed structure offshore for drilling or production.",
+    "related": "Jacket, Spar",
+    "source": "json"
+  },
+  {
+    "term": "Porosity",
+    "definition": "The amount of empty space (holes) in the rock where oil sits (like a sponge).",
+    "related": "Storage Capacity, Permeability",
+    "source": "json"
+  },
+  {
+    "term": "Proppant",
+    "definition": "Sand or ceramic beads pumped during Fracking to hold the rock cracks open.",
+    "related": "Frac Sand, Stimulation",
+    "source": "json"
+  },
+  {
+    "term": "Rat Hole",
+    "definition": "A hole in the rig floor to store the Kelly; also means a \"messy/bad place\".",
+    "related": "Mouse Hole, Rig Floor",
+    "source": "json"
+  },
+  {
+    "term": "Sour Gas",
+    "definition": "Natural gas containing significant amounts of H2S (poisonous).",
+    "related": "Sweet Gas, Acid Gas",
+    "source": "json"
+  },
+  {
+    "term": "Swabbing",
+    "definition": "Using a rubber cup to pull fluid out of the tubing to lower pressure and help the well kick off.",
+    "related": "Workover, Unloading",
+    "source": "json"
+  },
+  {
+    "term": "Upstream",
+    "definition": "The sector covering exploration, drilling, and production.",
+    "related": "Midstream, Downstream",
+    "source": "json"
+  },
+  {
+    "term": "Wellbore",
+    "definition": "The actual hole drilled in the ground.",
+    "related": "Hole, Well",
+    "source": "json"
+  },
+  {
+    "term": "Wellhead",
+    "definition": "The equipment installed at the surface of the wellbore.",
+    "related": "Christmas Tree, Spool",
+    "source": "json"
+  },
+  {
+    "term": "Wireline",
+    "definition": "A cabling technology used to lower tools/sensors into the well.",
+    "related": "Logging, Slickline",
+    "source": "json"
+  },
+  {
+    "term": "Workover",
+    "definition": "Major maintenance on a well to restore or improve production (requires a rig).",
+    "related": "Intervention, Pulling Unit",
+    "source": "json"
+  },
+  {
+    "term": "Gas Lock",
+    "definition": "A malfunction in a downhole pump where gas fills the pump chamber, preventing the valves from opening and stopping fluid movement.",
+    "related": "Pumper / Prod Eng",
+    "source": "json"
+  },
+  {
+    "term": "Pig Trap",
+    "definition": "The device used to insert or remove a pipeline cleaning tool (\"Pig\") safely under pressure.",
+    "related": "Facilities / Pumper",
+    "source": "json"
+  },
+  {
+    "term": "Rod Part",
+    "definition": "A mechanical failure where the sucker rod string snaps downhole, requiring a workover rig to fish it out.",
+    "related": "Lease Manager",
+    "source": "json"
+  },
+  {
+    "term": "Borehole",
+    "definition": "The hole drilled into the earth.",
+    "related": "Wellbore, Open Hole",
+    "source": "json"
+  },
+  {
+    "term": "Cuttings",
+    "definition": "Chips of rock brought to the surface by drilling mud; used to analyze geology.",
+    "related": "Mud Logging, Shale Shaker",
+    "source": "json"
+  },
+  {
+    "term": "Doghouse",
+    "definition": "The small room on the rig floor where the drilling crew rests or keeps records; the office.",
+    "related": "Rig Floor, Driller’s Console",
+    "source": "json"
+  },
+  {
+    "term": "Downhole",
+    "definition": "Refers to anything inside the wellbore (tools, equipment, conditions).",
+    "related": "Subsurface, Wireline",
+    "source": "json"
+  },
+  {
+    "term": "Dry Hole",
+    "definition": "A well that does not find significant oil or gas.",
+    "related": "Duster, Uneconomic",
+    "source": "json"
+  },
+  {
+    "term": "Flowline",
+    "definition": "The pipe connecting the wellhead to the separation equipment or tank battery.",
+    "related": "Pipeline, Gathering System",
+    "source": "json"
+  },
+  {
+    "term": "Flowback",
+    "definition": "The fluids (water, sand, chemicals) that come back out of a well after Fracking.",
+    "related": "Produced Water, Cleanup",
+    "source": "json"
+  },
+  {
+    "term": "Fracking",
+    "definition": "Hydraulic Fracturing. Pumping high-pressure fluid to crack rock and release oil/gas.",
+    "related": "Stimulation, Proppant",
+    "source": "json"
+  },
+  {
+    "term": "Gas Lift",
+    "definition": "Injecting gas into the fluid column to make it lighter and help it flow to the surface.",
+    "related": "Artificial Lift, Injection",
+    "source": "json"
+  },
+  {
+    "term": "Lay Down",
+    "definition": "To stop an operation or put pipe down from the rig floor.",
+    "related": "Pick Up, Rig Down",
+    "source": "json"
+  },
+  {
+    "term": "Manifold",
+    "definition": "A piping arrangement with valves to direct flow from multiple wells to different places.",
+    "related": "Headers, Gathering",
+    "source": "json"
+  },
+  {
+    "term": "Offshore",
+    "definition": "Operations located at sea.",
+    "related": "Platform, Subsea",
+    "source": "json"
+  },
+  {
+    "term": "Operator",
+    "definition": "The oil company that manages the well and pays the bills (e.g., Exxon, Shell).",
+    "related": "Service Company, Leaseholder",
+    "source": "json"
+  },
+  {
+    "term": "Pay Zone",
+    "definition": "The specific layer of rock that contains economically producible oil/gas.",
+    "related": "Reservoir, Net Pay",
+    "source": "json"
+  },
+  {
+    "term": "Platform",
+    "definition": "A fixed structure offshore for drilling or production.",
+    "related": "Jacket, Spar",
+    "source": "json"
+  },
+  {
+    "term": "Porosity",
+    "definition": "The amount of empty space (holes) in the rock where oil sits (like a sponge).",
+    "related": "Storage Capacity, Permeability",
+    "source": "json"
+  },
+  {
+    "term": "Proppant",
+    "definition": "Sand or ceramic beads pumped during Fracking to hold the rock cracks open.",
+    "related": "Frac Sand, Stimulation",
+    "source": "json"
+  },
+  {
+    "term": "Rat Hole",
+    "definition": "A hole in the rig floor to store the Kelly; also means a \"messy/bad place\".",
+    "related": "Mouse Hole, Rig Floor",
+    "source": "json"
+  },
+  {
+    "term": "Sour Gas",
+    "definition": "Natural gas containing significant amounts of H2S (poisonous).",
+    "related": "Sweet Gas, Acid Gas",
+    "source": "json"
+  },
+  {
+    "term": "Swabbing",
+    "definition": "Using a rubber cup to pull fluid out of the tubing to lower pressure and help the well kick off.",
+    "related": "Workover, Unloading",
+    "source": "json"
+  },
+  {
+    "term": "Upstream",
+    "definition": "The sector covering exploration, drilling, and production.",
+    "related": "Midstream, Downstream",
+    "source": "json"
+  },
+  {
+    "term": "Wellbore",
+    "definition": "The actual hole drilled in the ground.",
+    "related": "Hole, Well",
+    "source": "json"
+  },
+  {
+    "term": "Wellhead",
+    "definition": "The equipment installed at the surface of the wellbore.",
+    "related": "Christmas Tree, Spool",
+    "source": "json"
+  },
+  {
+    "term": "Wireline",
+    "definition": "A cabling technology used to lower tools/sensors into the well.",
+    "related": "Logging, Slickline",
+    "source": "json"
+  },
+  {
+    "term": "Workover",
+    "definition": "Major maintenance on a well to restore or improve production (requires a rig).",
+    "related": "Intervention, Pulling Unit",
+    "source": "json"
+  },
+  {
+    "term": "Gas Lift",
+    "definition": "Injecting natural gas into the tubing (via \"mandrels\") to mix with the oil. This makes the fluid column lighter/bubbly so it rises to the surface easily.",
+    "related": "Gas Lift Valve, Injection",
+    "source": "json"
+  },
+  {
+    "term": "Jet Pump",
+    "definition": "A hydraulic pump that uses the Venturi effect (high-pressure fluid injection) to suck oil out of the formation.",
+    "related": "Hydraulic Lift, Nozzle",
+    "source": "json"
+  },
+  {
+    "term": "Emulsion",
+    "definition": "A mixture where oil and water are blended together (like mayonnaise) and won't separate easily. Requires heat or chemicals to break.",
+    "related": "Demulsifier, Chemical",
+    "source": "json"
+  },
+  {
+    "term": "Scrubber",
+    "definition": "A vessel used to remove small amounts of liquid (mist) from a gas stream to protect compressors.",
+    "related": "Suction Scrubber, Filter",
+    "source": "json"
+  },
+  {
+    "term": "Acid Job",
+    "definition": "Pumping acid down the well to dissolve scale (calcium buildup) or rock to open up flow paths.",
+    "related": "Stimulation, Matrix Acid",
+    "source": "json"
+  },
+  {
+    "term": "Cleanout",
+    "definition": "Removing sand, scale, or junk from the bottom of the wellbore.",
+    "related": "Bailing, Circulating",
+    "source": "json"
+  },
+  {
+    "term": "Snubbing",
+    "definition": "Pushing pipe into a well that is under high pressure. The pressure tries to shoot the pipe out, so \"snubbing\" forces it in.",
+    "related": "Hydraulic Workover, Live Well",
+    "source": "json"
+  },
+  {
+    "term": "Bridging",
+    "definition": "When sand or scale creates a blockage in the wellbore, stopping flow completely (like a clogged artery).",
+    "related": "Obstruction",
+    "source": "json"
+  },
+  {
+    "term": "Gas Lock",
+    "definition": "When gas bubbles fill the downhole pump chamber. Since gas is compressible, the valves won't open, and the pump stops moving fluid.",
+    "related": "Pump Malfunction",
+    "source": "json"
+  },
+  {
+    "term": "Drawdown",
+    "definition": "The difference between the pressure in the reservoir and the pressure at the bottom of the well. High drawdown = harder pulling.",
+    "related": "Reservoir Management",
+    "source": "json"
+  },
+  {
+    "term": "Downtime",
+    "definition": "The time a well is not producing due to failure or maintenance. usually expressed as a percentage.",
+    "related": "Lost Revenue",
+    "source": "json"
+  },
+  {
+    "term": "Run Life",
+    "definition": "The number of days a specific piece of equipment (like an ESP motor) lasted before it died.",
+    "related": "Vendor Evaluation",
+    "source": "json"
+  },
+  {
+    "term": "Derrick",
+    "definition": "The tall tower structure on a drilling rig that supports the hoisting equipment.",
+    "related": "Rig, Mast",
+    "source": "json"
+  },
+  {
+    "term": "Driller",
+    "definition": "The supervisor on the rig floor who operates the drilling machinery.",
+    "related": "Crew, Roughneck",
+    "source": "json"
+  },
+  {
+    "term": "Flaring",
+    "definition": "Burning off unwanted or excess gas at the wellsite.",
+    "related": "Venting, Relief System",
+    "source": "json"
+  },
+  {
+    "term": "Landman",
+    "definition": "The person who negotiates leases with landowners (farmers/ranchers).",
+    "related": "Leasing, Mineral Rights",
+    "source": "json"
+  },
+  {
+    "term": "Logging",
+    "definition": "Lowering sensors into the well to measure rock properties (oil vs water, porosity).",
+    "related": "Wireline, LWD",
+    "source": "json"
+  },
+  {
+    "term": "Onshore",
+    "definition": "Operations located on land.",
+    "related": "Land Rig, Location",
+    "source": "json"
+  },
+  {
+    "term": "Royalty",
+    "definition": "The percentage of revenue paid to the landowner (mineral owner).",
+    "related": "Mineral Rights, Lease",
+    "source": "json"
+  },
+  {
+    "term": "Shut-In",
+    "definition": "A well that is closed off and not producing.",
+    "related": "Closed, Suspended",
+    "source": "json"
+  },
+  {
+    "term": "Turnkey",
+    "definition": "A contract where the driller takes all the risk to drill to a certain depth for a fixed price.",
+    "related": "Dayrate, Footage",
+    "source": "json"
+  },
+  {
+    "term": "Wet Gas",
+    "definition": "Gas containing liquid hydrocarbons (propane, butane).",
+    "related": "Dry Gas, NGLs",
+    "source": "json"
+  },
+  {
+    "term": "Wildcat",
+    "definition": "An exploration well drilled in an area with no known production (high risk).",
+    "related": "Exploration, Rank Wildcat",
+    "source": "json"
+  },
+  {
+    "term": "Net Pay",
+    "definition": "The thickness of the rock that is actually capable of producing oil (excluding non-porous rock).",
+    "related": "Production Eng",
+    "source": "json"
+  },
+  {
+    "term": "Annulus",
+    "definition": "The space between two concentric objects, such as the casing and the tubing.",
+    "related": "Casing, Tubing, Packer",
+    "source": "json"
+  },
+  {
+    "term": "Blowout",
+    "definition": "An uncontrolled release of crude oil and/or gas from a well (a major disaster).",
+    "related": "Kick, Well Control",
+    "source": "json"
+  },
+  {
+    "term": "Catwalk",
+    "definition": "The ramp on a rig where pipe is laid out to be lifted to the drill floor.",
+    "related": "V-Door, Pipe Rack",
+    "source": "json"
+  },
+  {
+    "term": "Derrick",
+    "definition": "The tall tower structure on a drilling rig that supports the hoisting equipment.",
+    "related": "Rig, Mast",
+    "source": "json"
+  },
+  {
+    "term": "Driller",
+    "definition": "The supervisor on the rig floor who operates the drilling machinery.",
+    "related": "Crew, Roughneck",
+    "source": "json"
+  },
+  {
+    "term": "Flaring",
+    "definition": "Burning off unwanted or excess gas at the wellsite.",
+    "related": "Venting, Relief System",
+    "source": "json"
+  },
+  {
+    "term": "Landman",
+    "definition": "The person who negotiates leases with landowners (farmers/ranchers).",
+    "related": "Leasing, Mineral Rights",
+    "source": "json"
+  },
+  {
+    "term": "Logging",
+    "definition": "Lowering sensors into the well to measure rock properties (oil vs water, porosity).",
+    "related": "Wireline, LWD",
+    "source": "json"
+  },
+  {
+    "term": "Onshore",
+    "definition": "Operations located on land.",
+    "related": "Land Rig, Location",
+    "source": "json"
+  },
+  {
+    "term": "Royalty",
+    "definition": "The percentage of revenue paid to the landowner (mineral owner).",
+    "related": "Mineral Rights, Lease",
+    "source": "json"
+  },
+  {
+    "term": "Shut-In",
+    "definition": "A well that is closed off and not producing.",
+    "related": "Closed, Suspended",
+    "source": "json"
+  },
+  {
+    "term": "Turnkey",
+    "definition": "A contract where the driller takes all the risk to drill to a certain depth for a fixed price.",
+    "related": "Dayrate, Footage",
+    "source": "json"
+  },
+  {
+    "term": "Wet Gas",
+    "definition": "Gas containing liquid hydrocarbons (propane, butane).",
+    "related": "Dry Gas, NGLs",
+    "source": "json"
+  },
+  {
+    "term": "Wildcat",
+    "definition": "An exploration well drilled in an area with no known production (high risk).",
+    "related": "Exploration, Rank Wildcat",
+    "source": "json"
+  },
+  {
+    "term": "Biocide",
+    "definition": "A chemical poison used to kill bacteria in the water. Bacteria cause \"sour\" gas (H2S) and slime that clogs the reservoir.",
+    "related": "Bacterial Control",
+    "source": "json"
+  },
+  {
+    "term": "Tagging",
+    "definition": "When the pump hits the bottom of the well or a restriction. \"Tagging bottom\" can damage the equipment.",
+    "related": "Mechanical Interference",
+    "source": "json"
+  },
+  {
+    "term": "Washout",
+    "definition": "When high-pressure fluid creates a hole in metal (like a valve seat or nozzle) by eroding it away, similar to a water jet cutter.",
+    "related": "Erosion",
+    "source": "json"
+  },
+  {
+    "term": "Jacket",
+    "definition": "The steel frame supporting the deck of an offshore platform (the legs).",
+    "related": "Platform, Offshore",
+    "source": "json"
+  },
+  {
+    "term": "Packer",
+    "definition": "A rubber element that expands to seal the space between tubing and casing.",
+    "related": "Isolation, Completion",
+    "source": "json"
+  },
+  {
+    "term": "Pumper",
+    "definition": "A person who visits wells daily to check gauges and ensure equipment is running.",
+    "related": "Lease Operator, Gauger",
+    "source": "json"
+  },
+  {
+    "term": "Subsea",
+    "definition": "Equipment located on the ocean floor.",
+    "related": "Offshore, Deepwater",
+    "source": "json"
+  },
+  {
+    "term": "Tubing",
+    "definition": "The smaller pipe inside the casing through which oil flows to the surface.",
+    "related": "Casing, Production String",
+    "source": "json"
+  },
+  {
+    "term": "Casing",
+    "definition": "Large steel pipe cemented into the wellbore to keep the hole from collapsing.",
+    "related": "Cementing, Liner",
+    "source": "json"
+  },
+  {
+    "term": "Jacket",
+    "definition": "The steel frame supporting the deck of an offshore platform (the legs).",
+    "related": "Platform, Offshore",
+    "source": "json"
+  },
+  {
+    "term": "Packer",
+    "definition": "A rubber element that expands to seal the space between tubing and casing.",
+    "related": "Isolation, Completion",
+    "source": "json"
+  },
+  {
+    "term": "Pumper",
+    "definition": "A person who visits wells daily to check gauges and ensure equipment is running.",
+    "related": "Lease Operator, Gauger",
+    "source": "json"
+  },
+  {
+    "term": "Subsea",
+    "definition": "Equipment located on the ocean floor.",
+    "related": "Offshore, Deepwater",
+    "source": "json"
+  },
+  {
+    "term": "Tubing",
+    "definition": "The smaller pipe inside the casing through which oil flows to the surface.",
+    "related": "Casing, Production String",
+    "source": "json"
+  },
+  {
+    "term": "Bridle",
+    "definition": "The cable loops at the end of the horsehead (on a pumpjack) that connect to the polish rod.",
+    "related": "Carrier Bar, Horsehead",
+    "source": "json"
+  },
+  {
+    "term": "Coupon",
+    "definition": "A small metal tab placed in the pipe. It is removed and weighed later to see how much metal was lost to corrosion (tests if the chemical is working).",
+    "related": "Monitoring",
+    "source": "json"
+  },
+  {
+    "term": "Payout",
+    "definition": "The time it takes for a well to generate enough profit to pay back the cost of drilling it.",
+    "related": "Investment Return",
+    "source": "json"
+  },
+  {
+    "term": "Uptime",
+    "definition": "The percentage of time the well is active and producing (Goal is usually >98%).",
+    "related": "Reliability",
+    "source": "json"
+  },
+  {
+    "term": "Field",
+    "definition": "A geographical area with multiple wells producing from the same reservoir.",
+    "related": "Reservoir, Play",
+    "source": "json"
+  },
+  {
+    "term": "Joint",
+    "definition": "A single length of pipe (usually ~30 feet).",
+    "related": "Stand, Drill Pipe",
+    "source": "json"
+  },
+  {
+    "term": "Kelly",
+    "definition": "The heavy steel bar (square or hex) that turns the drill string on older rigs.",
+    "related": "Rotary Table, Top Drive",
+    "source": "json"
+  },
+  {
+    "term": "Liner",
+    "definition": "A casing string that does not go all the way to the surface (hangs from other casing).",
+    "related": "Casing, Tie-back",
+    "source": "json"
+  },
+  {
+    "term": "Riser",
+    "definition": "A pipe connecting a subsea wellhead to a floating surface rig.",
+    "related": "Offshore, Subsea",
+    "source": "json"
+  },
+  {
+    "term": "SCADA",
+    "definition": "Supervisory Control and Data Acquisition. Computer systems that monitor wells remotely.",
+    "related": "Automation, Telemetry",
+    "source": "json"
+  },
+  {
+    "term": "Shale",
+    "definition": "A fine-grained sedimentary rock; the source of \"Fracking\" boom oil.",
+    "related": "Unconventional, Source Rock",
+    "source": "json"
+  },
+  {
+    "term": "Stand",
+    "definition": "Two or three joints of pipe connected together (usually 60-90 ft) standing in the derrick.",
+    "related": "Pipe, Racking",
+    "source": "json"
+  },
+  {
+    "term": "Mcf/d",
+    "definition": "Thousand Cubic Feet per day. The standard measurement for gas production rates.",
+    "related": "Production Eng",
+    "source": "json"
+  },
+  {
+    "term": "Block",
+    "definition": "A specific area of land/ocean leased to a company for exploration and drilling.",
+    "related": "Lease, Concession",
+    "source": "json"
+  },
+  {
+    "term": "Choke",
+    "definition": "A valve used to control the flow rate and pressure of fluids coming out of the well.",
+    "related": "Manifold, Restriction",
+    "source": "json"
+  },
+  {
+    "term": "Field",
+    "definition": "A geographical area with multiple wells producing from the same reservoir.",
+    "related": "Reservoir, Play",
+    "source": "json"
+  },
+  {
+    "term": "Joint",
+    "definition": "A single length of pipe (usually ~30 feet).",
+    "related": "Stand, Drill Pipe",
+    "source": "json"
+  },
+  {
+    "term": "Kelly",
+    "definition": "The heavy steel bar (square or hex) that turns the drill string on older rigs.",
+    "related": "Rotary Table, Top Drive",
+    "source": "json"
+  },
+  {
+    "term": "Liner",
+    "definition": "A casing string that does not go all the way to the surface (hangs from other casing).",
+    "related": "Casing, Tie-back",
+    "source": "json"
+  },
+  {
+    "term": "Riser",
+    "definition": "A pipe connecting a subsea wellhead to a floating surface rig.",
+    "related": "Offshore, Subsea",
+    "source": "json"
+  },
+  {
+    "term": "SCADA",
+    "definition": "Supervisory Control and Data Acquisition. Computer systems that monitor wells remotely.",
+    "related": "Automation, Telemetry",
+    "source": "json"
+  },
+  {
+    "term": "Shale",
+    "definition": "A fine-grained sedimentary rock; the source of \"Fracking\" boom oil.",
+    "related": "Unconventional, Source Rock",
+    "source": "json"
+  },
+  {
+    "term": "Stand",
+    "definition": "Two or three joints of pipe connected together (usually 60-90 ft) standing in the derrick.",
+    "related": "Pipe, Racking",
+    "source": "json"
+  },
+  {
+    "term": "Scale",
+    "definition": "Mineral deposits (calcium, barium) that build up inside the pipe like clogged arteries, restricting flow.",
+    "related": "Scale Inhibitor, Acid",
+    "source": "json"
+  },
+  {
+    "term": "Tally",
+    "definition": "Measuring and recording the length of every single pipe joint before it goes into the hole.",
+    "related": "Pipe Strap, Measure",
+    "source": "json"
+  },
+  {
+    "term": "Core",
+    "definition": "A cylindrical sample of rock drilled out of the formation for analysis.",
+    "related": "Geology, Porosity",
+    "source": "json"
+  },
+  {
+    "term": "FPSO",
+    "definition": "Floating Production, Storage, and Offloading. A ship-shaped vessel used for offshore production.",
+    "related": "Offshore, Platform",
+    "source": "json"
+  },
+  {
+    "term": "Gunk",
+    "definition": "Slang for unwanted semi-solid material (mix of oil, water, and clay) that clogs equipment.",
+    "related": "Sludge, Paraffin",
+    "source": "json"
+  },
+  {
+    "term": "Hand",
+    "definition": "Slang for a worker or crew member.",
+    "related": "Roustabout, Roughneck",
+    "source": "json"
+  },
+  {
+    "term": "Kick",
+    "definition": "An unwanted influx of gas or fluid into the wellbore during drilling.",
+    "related": "Blowout, Well Control",
+    "source": "json"
+  },
+  {
+    "term": "Kill",
+    "definition": "To stop a well from flowing (usually by pumping heavy fluid into it).",
+    "related": "Well Control, Kill Mud",
+    "source": "json"
+  },
+  {
+    "term": "LOTO",
+    "definition": "Lock Out / Tag Out. Safety procedure to ensure power is off before working on machines.",
+    "related": "Safety, Isolation",
+    "source": "json"
+  },
+  {
+    "term": "NGLs",
+    "definition": "Natural Gas Liquids. Valuable liquids separated from natural gas (Ethane, Propane, Butane).",
+    "related": "LPG, Condensate",
+    "source": "json"
+  },
+  {
+    "term": "P&ID",
+    "definition": "Piping and Instrumentation Diagram. A technical drawing showing how equipment acts together.",
+    "related": "Schematics, Blueprints",
+    "source": "json"
+  },
+  {
+    "term": "Play",
+    "definition": "A group of oil fields in the same region controlled by the same geology (e.g., \"Permian Play\").",
+    "related": "Basin, Field",
+    "source": "json"
+  },
+  {
+    "term": "Skid",
+    "definition": "To move a rig slightly to drill a new well on the same pad.",
+    "related": "Pad Drilling, Walking Rig",
+    "source": "json"
+  },
+  {
+    "term": "Spud",
+    "definition": "The very start of drilling a new well (\"Spudding the well\").",
+    "related": "Start, Drilling",
+    "source": "json"
+  },
+  {
+    "term": "Tour",
+    "definition": "(Pronounced \"Tower\"). A work shift on a rig (usually 12 hours).",
+    "related": "Shift, Hitch",
+    "source": "json"
+  },
+  {
+    "term": "Worm",
+    "definition": "Slang for a new, inexperienced worker on the rig.",
+    "related": "Green Hat, Rookie",
+    "source": "json"
+  },
+  {
+    "term": "Zone",
+    "definition": "A specific interval of rock.",
+    "related": "Formation, Interval",
+    "source": "json"
+  },
+  {
+    "term": "P&ID",
+    "definition": "Piping and Instrumentation Diagram. The blueprint used by facilities engineers to design the flow of the surface equipment.",
+    "related": "Facilities Eng",
+    "source": "json"
+  },
+  {
+    "term": "Weir",
+    "definition": "A metal barrier inside a separator that fluid must flow over. It controls the liquid level and helps separate oil from water.",
+    "related": "Facilities Eng",
+    "source": "json"
+  },
+  {
+    "term": "BS&W",
+    "definition": "Basic Sediment and Water. Impurities (sand, water, dirt) in the oil that must be removed before selling.",
+    "related": "Emulsion, Separator",
+    "source": "json"
+  },
+  {
+    "term": "Core",
+    "definition": "A cylindrical sample of rock drilled out of the formation for analysis.",
+    "related": "Geology, Porosity",
+    "source": "json"
+  },
+  {
+    "term": "FPSO",
+    "definition": "Floating Production, Storage, and Offloading. A ship-shaped vessel used for offshore production.",
+    "related": "Offshore, Platform",
+    "source": "json"
+  },
+  {
+    "term": "Gunk",
+    "definition": "Slang for unwanted semi-solid material (mix of oil, water, and clay) that clogs equipment.",
+    "related": "Sludge, Paraffin",
+    "source": "json"
+  },
+  {
+    "term": "Hand",
+    "definition": "Slang for a worker or crew member.",
+    "related": "Roustabout, Roughneck",
+    "source": "json"
+  },
+  {
+    "term": "Kick",
+    "definition": "An unwanted influx of gas or fluid into the wellbore during drilling.",
+    "related": "Blowout, Well Control",
+    "source": "json"
+  },
+  {
+    "term": "Kill",
+    "definition": "To stop a well from flowing (usually by pumping heavy fluid into it).",
+    "related": "Well Control, Kill Mud",
+    "source": "json"
+  },
+  {
+    "term": "LOTO",
+    "definition": "Lock Out / Tag Out. Safety procedure to ensure power is off before working on machines.",
+    "related": "Safety, Isolation",
+    "source": "json"
+  },
+  {
+    "term": "NGLs",
+    "definition": "Natural Gas Liquids. Valuable liquids separated from natural gas (Ethane, Propane, Butane).",
+    "related": "LPG, Condensate",
+    "source": "json"
+  },
+  {
+    "term": "P&ID",
+    "definition": "Piping and Instrumentation Diagram. A technical drawing showing how equipment acts together.",
+    "related": "Schematics, Blueprints",
+    "source": "json"
+  },
+  {
+    "term": "Play",
+    "definition": "A group of oil fields in the same region controlled by the same geology (e.g., \"Permian Play\").",
+    "related": "Basin, Field",
+    "source": "json"
+  },
+  {
+    "term": "Skid",
+    "definition": "To move a rig slightly to drill a new well on the same pad.",
+    "related": "Pad Drilling, Walking Rig",
+    "source": "json"
+  },
+  {
+    "term": "Spud",
+    "definition": "The very start of drilling a new well (\"Spudding the well\").",
+    "related": "Start, Drilling",
+    "source": "json"
+  },
+  {
+    "term": "Tour",
+    "definition": "(Pronounced \"Tower\"). A work shift on a rig (usually 12 hours).",
+    "related": "Shift, Hitch",
+    "source": "json"
+  },
+  {
+    "term": "Worm",
+    "definition": "Slang for a new, inexperienced worker on the rig.",
+    "related": "Green Hat, Rookie",
+    "source": "json"
+  },
+  {
+    "term": "Zone",
+    "definition": "A specific interval of rock.",
+    "related": "Formation, Interval",
+    "source": "json"
+  },
+  {
+    "term": "Weir",
+    "definition": "A metal plate inside a separator that forces liquid to flow over it, helping to control liquid levels and separation.",
+    "related": "Baffle, Bucket",
+    "source": "json"
+  },
+  {
+    "term": "BFPD",
+    "definition": "Barrels of Fluid Per Day. The total volume of liquid (Oil + Water) the well produces.",
+    "related": "Sizing equipment",
+    "source": "json"
+  },
+  {
+    "term": "MTBF",
+    "definition": "Mean Time Between Failures. The average number of days a well runs before it breaks. Higher is better.",
+    "related": "Key Reliability Metric",
+    "source": "json"
+  },
+  {
+    "term": "MTTR",
+    "definition": "Mean Time To Repair. The average time it takes to fix a well once it goes down.",
+    "related": "Operational Efficiency",
+    "source": "json"
+  },
+  {
+    "term": "E&P",
+    "definition": "Exploration and Production. Another name for the Upstream sector.",
+    "related": "Operator, Upstream",
+    "source": "json"
+  },
+  {
+    "term": "ECD",
+    "definition": "Equivalent Circulating Density. The effective density of drilling fluid when it is moving (pumping).",
+    "related": "Mud Weight, Pressure",
+    "source": "json"
+  },
+  {
+    "term": "EOR",
+    "definition": "Enhanced Oil Recovery. Advanced methods (steam, CO2 injection) to get the last bit of oil out.",
+    "related": "Tertiary Recovery, Waterflood",
+    "source": "json"
+  },
+  {
+    "term": "ESP",
+    "definition": "Electric Submersible Pump. A pump placed down the well to push oil to the surface.",
+    "related": "Artificial Lift, Downhole Pump",
+    "source": "json"
+  },
+  {
+    "term": "H2S",
+    "definition": "Hydrogen Sulfide. A deadly, poisonous gas often found in oil wells (rotten egg smell).",
+    "related": "Sour Gas, Sweet Gas",
+    "source": "json"
+  },
+  {
+    "term": "HSE",
+    "definition": "Health, Safety, and Environment. The department/rules focused on safety.",
+    "related": "Safety, Compliance",
+    "source": "json"
+  },
+  {
+    "term": "Mud",
+    "definition": "Drilling Fluid. The special liquid pumped down the hole to cool the bit and carry cuttings.",
+    "related": "Mud Engineer, Circulation",
+    "source": "json"
+  },
+  {
+    "term": "PPE",
+    "definition": "Personal Protective Equipment. Hard hats, safety glasses, FR clothing, boots.",
+    "related": "Safety, Gear",
+    "source": "json"
+  },
+  {
+    "term": "Rig",
+    "definition": "The machine used to drill or work over a well.",
+    "related": "Derrick, Mast",
+    "source": "json"
+  },
+  {
+    "term": "ROP",
+    "definition": "Rate of Penetration. How fast the drill bit is drilling (feet per hour).",
+    "related": "Drilling Speed, Parameter",
+    "source": "json"
+  },
+  {
+    "term": "TVD",
+    "definition": "True Vertical Depth. The vertical distance from surface to the bottom (straight down).",
+    "related": "MD (Measured Depth)",
+    "source": "json"
+  },
+  {
+    "term": "EUR",
+    "definition": "Estimated Ultimate Recovery. The total amount of oil/gas a well is expected to produce in its entire life.",
+    "related": "Production Eng",
+    "source": "json"
+  },
+  {
+    "term": "GOR",
+    "definition": "Gas-Oil Ratio. The volume of gas produced per barrel of oil. High GOR can indicate reservoir pressure changes.",
+    "related": "Production Eng",
+    "source": "json"
+  },
+  {
+    "term": "LOE",
+    "definition": "Lease Operating Expense. The cost to run the well (electricity, chemicals, labor). If LOE > Revenue, the well is shut in.",
+    "related": "Lease Manager",
+    "source": "json"
+  },
+  {
+    "term": "PSV",
+    "definition": "Pressure Safety Valve. A mechanical valve set to pop open at a specific pressure to prevent a vessel from exploding.",
+    "related": "Facilities / Pumper",
+    "source": "json"
+  },
+  {
+    "term": "RVP",
+    "definition": "Reid Vapor Pressure. A measure of how volatile the oil is. Pipelines have strict RVP limits (oil cannot be too \"gassy\").",
+    "related": "Facilities Eng",
+    "source": "json"
+  },
+  {
+    "term": "VRU",
+    "definition": "Vapor Recovery Unit. A compressor that captures low-pressure gas from tanks to sell it, rather than venting/flaring it.",
+    "related": "Facilities Eng",
+    "source": "json"
+  },
+  {
+    "term": "AFE",
+    "definition": "Authorization for Expenditure. The budget document proposing costs for a specific project (like drilling a well).",
+    "related": "CAPEX, Budget",
+    "source": "json"
+  },
+  {
+    "term": "BBL",
+    "definition": "Barrel. The standard unit of volume for oil. Equal to 42 U.S. gallons.",
+    "related": "BOE, Production Rate",
+    "source": "json"
+  },
+  {
+    "term": "BHA",
+    "definition": "Bottom Hole Assembly. The collection of tools at the bottom of the drill string (bit, motor, sensors).",
+    "related": "Drill String, Bit",
+    "source": "json"
+  },
+  {
+    "term": "BHP",
+    "definition": "Bottom Hole Pressure. The pressure measured at the bottom of the well.",
+    "related": "Reservoir Pressure, PSI",
+    "source": "json"
+  },
+  {
+    "term": "Bit",
+    "definition": "The tool at the end of the drill string that cuts through the rock.",
+    "related": "Drill String, PDC, Tricone",
+    "source": "json"
+  },
+  {
+    "term": "BOP",
+    "definition": "Blowout Preventer. A massive valve stack on the wellhead used to seal the well in an emergency.",
+    "related": ", Rams, Shear Rams",
+    "source": "json"
+  },
+  {
+    "term": "BOE",
+    "definition": "Barrels of Oil Equivalent. A way to combine oil and gas volumes into one number for reporting.",
+    "related": "MBOE, Reserves",
+    "source": "json"
+  },
+  {
+    "term": "E&P",
+    "definition": "Exploration and Production. Another name for the Upstream sector.",
+    "related": "Operator, Upstream",
+    "source": "json"
+  },
+  {
+    "term": "ECD",
+    "definition": "Equivalent Circulating Density. The effective density of drilling fluid when it is moving (pumping).",
+    "related": "Mud Weight, Pressure",
+    "source": "json"
+  },
+  {
+    "term": "EOR",
+    "definition": "Enhanced Oil Recovery. Advanced methods (steam, CO2 injection) to get the last bit of oil out.",
+    "related": "Tertiary Recovery, Waterflood",
+    "source": "json"
+  },
+  {
+    "term": "ESP",
+    "definition": "Electric Submersible Pump. A pump placed down the well to push oil to the surface.",
+    "related": "Artificial Lift, Downhole Pump",
+    "source": "json"
+  },
+  {
+    "term": "H2S",
+    "definition": "Hydrogen Sulfide. A deadly, poisonous gas often found in oil wells (rotten egg smell).",
+    "related": "Sour Gas, Sweet Gas",
+    "source": "json"
+  },
+  {
+    "term": "HSE",
+    "definition": "Health, Safety, and Environment. The department/rules focused on safety.",
+    "related": "Safety, Compliance",
+    "source": "json"
+  },
+  {
+    "term": "Mud",
+    "definition": "Drilling Fluid. The special liquid pumped down the hole to cool the bit and carry cuttings.",
+    "related": "Mud Engineer, Circulation",
+    "source": "json"
+  },
+  {
+    "term": "PPE",
+    "definition": "Personal Protective Equipment. Hard hats, safety glasses, FR clothing, boots.",
+    "related": "Safety, Gear",
+    "source": "json"
+  },
+  {
+    "term": "Rig",
+    "definition": "The machine used to drill or work over a well.",
+    "related": "Derrick, Mast",
+    "source": "json"
+  },
+  {
+    "term": "ROP",
+    "definition": "Rate of Penetration. How fast the drill bit is drilling (feet per hour).",
+    "related": "Drilling Speed, Parameter",
+    "source": "json"
+  },
+  {
+    "term": "TVD",
+    "definition": "True Vertical Depth. The vertical distance from surface to the bottom (straight down).",
+    "related": "MD (Measured Depth)",
+    "source": "json"
+  },
+  {
+    "term": "ESP",
+    "definition": "Electric Submersible Pump. A long, skinny electric motor and pump stack usually placed at the bottom of the well. It pushes fluid up rather than pulling it.",
+    "related": "Submersible, Centrifugal",
+    "source": "json"
+  },
+  {
+    "term": "PCP",
+    "definition": "Progressing Cavity Pump. A screw-type pump. A spiral metal rotor spins inside a rubber stator, squeezing fluid up like a screw conveyor. Good for thick/sandy oil.",
+    "related": "Screw Pump, Moyno",
+    "source": "json"
+  },
+  {
+    "term": "LOE",
+    "definition": "Lease Operating Expense. The total monthly bill to run the field.",
+    "related": "Budgeting",
+    "source": "json"
+  },
+  {
+    "term": "TD",
+    "definition": "Total Depth. The final depth the well reaches.",
+    "related": "Bottom, Target",
+    "source": "json"
+  },
+  {
+    "term": "TD",
+    "definition": "Total Depth. The final depth the well reaches.",
+    "related": "Bottom, Target",
+    "source": "json"
+  }
+]

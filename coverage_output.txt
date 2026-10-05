@@ -1,0 +1,592 @@
+
+> agentic-energy-backend@2.0.0 test:coverage
+> npx jest --coverage
+
+PASS tests/utils/text.utils-enhanced.test.ts (10.515 s)
+PASS tests/modules/engineering-assistant/services/personalization/user-personalization.service.test.ts (10.55 s)
+PASS tests/utils/askAssist.utils.test.ts (10.696 s)
+PASS tests/services/utils/response.postprocessor.test.ts (10.834 s)
+PASS tests/modules/industrial-data/operational-recommendations/controllers/operational-recommendations.controller.test.ts (10.819 s)
+PASS tests/modules/engineering-assistant/services/execution/parameter-validator.service.test.ts (11.091 s)
+PASS tests/services/rag/rag.service.test.ts
+PASS tests/modules/engineering-assistant/services/actions/smart-action.action.test.ts
+  ● Console
+
+    console.log
+      prisma:error 
+      Invalid `prisma.chat_user_preferences.findUnique()` invocation in
+      /home/manojyadav/Documents/Agentic energy/latest/latest-EA-backend-withmodel/src/modules/engineering-assistant/services/personalization/user-personalization.service.ts:10:55
+      
+         7  */
+         8 async getUserPreferences(userId: string, orgId?: string) {
+         9   try {
+      → 10     let prefs = (await prisma.chat_user_preferences.findUnique(
+      Authentication failed against database server at `localhost`, the provided database credentials for `test` are not valid.
+      
+      Please make sure to provide valid database credentials for the database server at `localhost`.
+
+      at Object.Yu (node_modules/@prisma/client/runtime/library.js:22:432)
+
+    console.log
+      prisma:error 
+      Invalid `prisma.chat_user_preferences.findUnique()` invocation in
+      /home/manojyadav/Documents/Agentic energy/latest/latest-EA-backend-withmodel/src/modules/engineering-assistant/services/personalization/user-personalization.service.ts:10:55
+      
+         7  */
+         8 async getUserPreferences(userId: string, orgId?: string) {
+         9   try {
+      → 10     let prefs = (await prisma.chat_user_preferences.findUnique(
+      Authentication failed against database server at `localhost`, the provided database credentials for `test` are not valid.
+      
+      Please make sure to provide valid database credentials for the database server at `localhost`.
+
+      at Object.Yu (node_modules/@prisma/client/runtime/library.js:22:432)
+
+    console.log
+      prisma:error 
+      Invalid `prisma.chat_user_preferences.findUnique()` invocation in
+      /home/manojyadav/Documents/Agentic energy/latest/latest-EA-backend-withmodel/src/modules/engineering-assistant/services/personalization/user-personalization.service.ts:10:55
+      
+         7  */
+         8 async getUserPreferences(userId: string, orgId?: string) {
+         9   try {
+      → 10     let prefs = (await prisma.chat_user_preferences.findUnique(
+      Authentication failed against database server at `localhost`, the provided database credentials for `test` are not valid.
+      
+      Please make sure to provide valid database credentials for the database server at `localhost`.
+
+      at Object.Yu (node_modules/@prisma/client/runtime/library.js:22:432)
+
+PASS tests/modules/engineering-assistant/services/execution/tool-execution.service.test.ts
+PASS tests/modules/engineering-assistant/tools/ToolRegistry.test.ts
+  ● Console
+
+    console.log
+      {"level":"INFO","message":"[12:18:26.013 PM]: Creating new connection object"}
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      {"level":"INFO","message":"[12:18:26.149 PM]: Creating Connection[id: 2d6266b3-d995-4848-9896-313d3c8b4e4f] with host: test-account-12345.snowflakecomputing.com, account: test-account-12345, accessUrl: https://test-account-12345.snowflakecomputing.com, user: test-user, role: ACCOUNTADMIN, database: TEST_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: linux, os version: 6.8.0-101-generic"}
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      {"level":"INFO","message":"[12:18:26.186 PM]: Connection[id: 2d6266b3-d995-4848-9896-313d3c8b4e4f] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.4, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      {"level":"INFO","message":"[12:18:26.191 PM]: Connection[id: 2d6266b3-d995-4848-9896-313d3c8b4e4f] - connection object created successfully."}
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+PASS tests/services/storage.service.test.ts
+PASS tests/modules/industrial-data/dashboard/dashboard.controller-enhanced.test.ts (13.366 s)
+  ● Console
+
+    console.log
+      {"level":"INFO","message":"[12:18:26.451 PM]: Creating new connection object"}
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      {"level":"INFO","message":"[12:18:26.562 PM]: Creating Connection[id: d18ddc28-161a-4657-8385-977fab00b12c] with host: test-account-12345.snowflakecomputing.com, account: test-account-12345, accessUrl: https://test-account-12345.snowflakecomputing.com, user: test-user, role: ACCOUNTADMIN, database: TEST_DB, schema: PUBLIC, warehouse: COMPUTE_WH, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: linux, os version: 6.8.0-101-generic"}
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      {"level":"INFO","message":"[12:18:26.578 PM]: Connection[id: d18ddc28-161a-4657-8385-977fab00b12c] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.4, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      {"level":"INFO","message":"[12:18:26.581 PM]: Connection[id: d18ddc28-161a-4657-8385-977fab00b12c] - connection object created successfully."}
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+PASS tests/services/handlers/docx.handler.test.ts
+PASS tests/services/llm/llm.service.test.ts
+  ● Console
+
+    console.log
+      DEBUG: OpenAI Mock Constructor Called
+
+      at new OpenAI (tests/services/llm/llm.service.test.ts:37:17)
+
+PASS tests/utils/snowflake.test.ts
+PASS tests/modules/engineering-assistant/services/personalization/user-behavior.service.test.ts
+PASS tests/modules/engineering-assistant/services/data/production-data.service.test.ts
+PASS tests/modules/engineering-assistant/tools/sql/sql.tool.test.ts
+PASS tests/services/handlers/pdf.handler.test.ts
+PASS tests/utils/extractChart.test.ts
+  ● Console
+
+    console.log
+      2026-02-26 12:18:27 [[33MWARN[39M]: Failed to extract chart config from AI response: Cannot read properties of null (reading 'matchAll')
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[33MWARN[39M]: Failed to remove chart config: Cannot read properties of null (reading 'replace')
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+PASS tests/modules/engineering-assistant/services/actions/take-action.action.test.ts
+  ● Console
+
+    console.log
+      2026-02-26 12:18:27 [[34MDEBUG[39M]: 📊 Action context: 100 tokens
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[34MDEBUG[39M]: 📊 Action context: 100 tokens
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+PASS tests/middleware/error.middleware.test.ts
+  ● Console
+
+    console.log
+      2026-02-26 12:18:26 [[31MERROR[39M]: Test error message
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]: Resource not found
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]: Internal server error
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]: Unauthorized access
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]: Forbidden
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]: Error: Invalid input <>&"'
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]: [
+        {
+          "code": "invalid_type",
+          "expected": "string",
+          "received": "number",
+          "path": [
+            "email"
+          ],
+          "message": "Expected string, received number"
+        }
+      ]
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]: [
+        {
+          "code": "invalid_type",
+          "expected": "string",
+          "received": "number",
+          "path": [
+            "email"
+          ],
+          "message": "Email must be a string"
+        },
+        {
+          "code": "too_small",
+          "minimum": 8,
+          "type": "string",
+          "inclusive": true,
+          "path": [
+            "password"
+          ],
+          "message": "Password must be at least 8 characters"
+        }
+      ]
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]: []
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]: [
+        {
+          "code": "too_small",
+          "minimum": 8,
+          "type": "string",
+          "inclusive": true,
+          "path": [
+            "password"
+          ],
+          "message": "Too short"
+        },
+        {
+          "code": "custom",
+          "path": [
+            "password"
+          ],
+          "message": "Must contain uppercase"
+        }
+      ]
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]: Something went wrong
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]:
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]:
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]: Test error
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]: Generic
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]: [
+        {
+          "code": "invalid_type",
+          "expected": "string",
+          "received": "number",
+          "path": [
+            "field"
+          ],
+          "message": "Type error"
+        }
+      ]
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]: Test
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]: Test error
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]: []
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]: Test error
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]:
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[31MERROR[39M]: Conflict
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+PASS tests/middleware/auth.middleware.test.ts
+PASS tests/utils/logger.test.ts
+PASS src/modules/engineering-assistant/services/core/intent-classifier.service.test.ts
+  ● Console
+
+    console.log
+      2026-02-26 12:18:27 [[34MDEBUG[39M]: ✅ High-confidence rule match: chat (95.0%)
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[34MDEBUG[39M]: ⚠️ Ambiguous intent, using LLM for classification...
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:27 [[34MDEBUG[39M]: llmResult
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+PASS tests/services/chat.service.test.ts
+PASS tests/modules/engineering-assistant/services/core/agent.service.test.ts
+  ● Console
+
+    console.log
+      {"level":"INFO","message":"[12:18:26.220 PM]: Creating new connection object"}
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      {"level":"INFO","message":"[12:18:26.385 PM]: Creating Connection[id: 1fac31fd-077d-43b0-9515-c5350e3cfe04] with host: test_account.snowflakecomputing.com, account: test_account, accessUrl: https://test_account.snowflakecomputing.com, user: test_user, role: test_role, database: test_database, schema: test_schema, warehouse: test_warehouse, proxy was not configured, password is provided, region: undefined, authenticator: SNOWFLAKE, ocsp mode: FAIL_OPEN, os: linux, os version: 6.8.0-101-generic"}
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      {"level":"INFO","message":"[12:18:26.413 PM]: Connection[id: 1fac31fd-077d-43b0-9515-c5350e3cfe04] additional details: passcode in password is provided, passcode is not provided, private key is not provided, application: undefined, client name: snowflake-sdk, client version: 2.3.4, retry timeout: 300, private key path: undefined, private key pass is not provided, client store temporary credential: false, browser response timeout: 120000"}
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      {"level":"INFO","message":"[12:18:26.417 PM]: Connection[id: 1fac31fd-077d-43b0-9515-c5350e3cfe04] - connection object created successfully."}
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      prisma:error 
+      Invalid `prisma.chat_user_preferences.findUnique()` invocation in
+      /home/manojyadav/Documents/Agentic energy/latest/latest-EA-backend-withmodel/src/modules/engineering-assistant/services/personalization/user-personalization.service.ts:10:55
+      
+         7  */
+         8 async getUserPreferences(userId: string, orgId?: string) {
+         9   try {
+      → 10     let prefs = (await prisma.chat_user_preferences.findUnique(
+      Authentication failed against database server at `localhost`, the provided database credentials for `test` are not valid.
+      
+      Please make sure to provide valid database credentials for the database server at `localhost`.
+
+      at Object.Yu (node_modules/@prisma/client/runtime/library.js:22:432)
+
+    console.log
+      prisma:error 
+      Invalid `prisma.chat_user_preferences.findUnique()` invocation in
+      /home/manojyadav/Documents/Agentic energy/latest/latest-EA-backend-withmodel/src/modules/engineering-assistant/services/personalization/user-personalization.service.ts:10:55
+      
+         7  */
+         8 async getUserPreferences(userId: string, orgId?: string) {
+         9   try {
+      → 10     let prefs = (await prisma.chat_user_preferences.findUnique(
+      Authentication failed against database server at `localhost`, the provided database credentials for `test` are not valid.
+      
+      Please make sure to provide valid database credentials for the database server at `localhost`.
+
+      at Object.Yu (node_modules/@prisma/client/runtime/library.js:22:432)
+
+    console.log
+      prisma:error 
+      Invalid `prisma.chat_user_preferences.findUnique()` invocation in
+      /home/manojyadav/Documents/Agentic energy/latest/latest-EA-backend-withmodel/src/modules/engineering-assistant/services/personalization/user-personalization.service.ts:10:55
+      
+         7  */
+         8 async getUserPreferences(userId: string, orgId?: string) {
+         9   try {
+      → 10     let prefs = (await prisma.chat_user_preferences.findUnique(
+      Authentication failed against database server at `localhost`, the provided database credentials for `test` are not valid.
+      
+      Please make sure to provide valid database credentials for the database server at `localhost`.
+
+      at Object.Yu (node_modules/@prisma/client/runtime/library.js:22:432)
+
+PASS tests/services/handlers/image.handler.test.ts
+PASS tests/validators/chat.validator-enhanced.test.ts
+PASS tests/utils/AppError-enhanced.test.ts
+PASS tests/modules/engineering-assistant/services/quality/factuality-checker.service.test.ts
+PASS tests/config/config.test.ts
+PASS tests/modules/engineering-assistant/services/actions/search-rag.action.test.ts
+PASS tests/modules/industrial-data/production-forecasting/controllers/production-forecasting.controller.test.ts
+PASS tests/services/handlers/text.handler.test.ts
+PASS tests/modules/engineering-assistant/controllers/history.controller.test.ts
+PASS tests/modules/engineering-assistant/services/core/intent-classifier.service.test.ts
+  ● Console
+
+    console.log
+      DEBUG RULE RESULT: {
+        "intent": "chat",
+        "researchMode": "simple",
+        "confidence": 0.95,
+        "reasoning": "High-confidence chat rule pattern match",
+        "method": "rules",
+        "executionTime": 0,
+        "domain_allowed": true
+      }
+
+      at Object.<anonymous> (tests/modules/engineering-assistant/services/core/intent-classifier.service.test.ts:94:15)
+
+PASS tests/modules/industrial-data/anomaly-reviews/controllers/anomaly-reviews.controller.test.ts
+PASS tests/modules/engineering-assistant/services/quality/quality-scorer.service.test.ts
+PASS tests/middleware/upload.middleware.test.ts
+PASS tests/modules/engineering-assistant/services/core/context-optimizer.service.test.ts
+PASS tests/modules/engineering-assistant/services/data/semantic-reranker.service.test.ts
+PASS tests/modules/engineering-assistant/tools/operational-recommendations/operational-recommendations.tool.test.ts
+PASS tests/utils/text.utils.test.ts
+PASS tests/modules/engineering-assistant/services/actions/analyze-file.action.test.ts
+  ● Console
+
+    console.log
+      2026-02-26 12:18:28 [[34MDEBUG[39M]: 📊 Analyze context: 200 tokens
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+    console.log
+      2026-02-26 12:18:28 [[34MDEBUG[39M]: 📊 Analyze context: 200 tokens
+
+      at Console.log (node_modules/winston/lib/winston/transports/console.js:87:23)
+
+PASS tests/services/utils/url.validator.test.ts
+PASS tests/services/file.service.test.ts
+PASS tests/modules/engineering-assistant/services/quality/suggestion.service.test.ts
+PASS tests/modules/engineering-assistant/tools/production-data/production-data.tool.test.ts
+PASS tests/modules/glossary/glossary.service.test.ts
+PASS tests/modules/engineering-assistant/services/data/query-cache.service.test.ts
+PASS tests/modules/engineering-assistant/tools/anomaly-report/anomaly-report.tool.test.ts
+PASS tests/modules/engineering-assistant/tools/at-risk-assets/at-risk-assets.tool.test.ts
+PASS tests/modules/industrial-data/at-risk/controllers/at-risk.controller.test.ts
+PASS tests/services/prompt.service.test.ts
+PASS tests/modules/engineering-assistant/services/actions/action.interface.test.ts
+PASS tests/modules/engineering-assistant/services/actions/chat-only.action.test.ts
+PASS tests/services/handlers/spreadsheet.handler.test.ts
+PASS tests/utils/AppError.test.ts
+PASS tests/modules/engineering-assistant/tools/clarify/clarify.tool.test.ts
+PASS tests/modules/glossary/index.test.ts
+PASS tests/basic.test.ts
+PASS tests/modules/engineering-assistant/controllers/chat.controller.test.ts
+PASS tests/app.test.ts (6.355 s)
+---------------------------------------------------------------------|---------|----------|---------|---------|-------------------------------------------------------
+File                                                                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                     
+---------------------------------------------------------------------|---------|----------|---------|---------|-------------------------------------------------------
+All files                                                            |   91.37 |    81.33 |    89.4 |   92.09 |                                                       
+ src                                                                 |    90.9 |       75 |      50 |    90.9 |                                                       
+  app.ts                                                             |    90.9 |       75 |      50 |    90.9 | 57-58,64                                              
+ src/config                                                          |     100 |    83.33 |     100 |     100 |                                                       
+  config.ts                                                          |     100 |      100 |     100 |     100 |                                                       
+  db.ts                                                              |     100 |    83.33 |     100 |     100 | 12                                                    
+ src/middleware                                                      |     100 |      100 |     100 |     100 |                                                       
+  auth.middleware.ts                                                 |     100 |      100 |     100 |     100 |                                                       
+  error.middleware.ts                                                |     100 |      100 |     100 |     100 |                                                       
+  upload.middleware.ts                                               |     100 |      100 |     100 |     100 |                                                       
+ src/modules/engineering-assistant/controllers                       |   90.86 |       75 |   70.58 |   92.14 |                                                       
+  chat.controller.ts                                                 |   90.14 |    76.04 |   61.53 |   90.64 | 52,61,92,105-109,117,163,225,260-264,294,337,354      
+  history.controller.ts                                              |   92.72 |    72.22 |     100 |   96.15 | 15,95                                                 
+ src/modules/engineering-assistant/routes                            |     100 |      100 |     100 |     100 |                                                       
+  ea.routes.ts                                                       |     100 |      100 |     100 |     100 |                                                       
+ src/modules/engineering-assistant/services/actions                  |   89.24 |     81.6 |     100 |    89.1 |                                                       
+  action.interface.ts                                                |     100 |      100 |     100 |     100 |                                                       
+  analyze-file.action.ts                                             |     100 |    83.33 |     100 |     100 | 18                                                    
+  chat-only.action.ts                                                |     100 |      100 |     100 |     100 |                                                       
+  search-rag.action.ts                                               |     100 |    83.33 |     100 |     100 | 30-31                                                 
+  smart-action.action.ts                                             |   81.91 |    73.33 |     100 |   81.91 | 72,77,140,147,158-161,165-168,178-179,190-192,218,222 
+  take-action.action.ts                                              |     100 |       75 |     100 |     100 | 18                                                    
+ src/modules/engineering-assistant/services/core                     |   83.61 |    72.83 |   74.28 |   83.92 |                                                       
+  agent.prompts.ts                                                   |     100 |      100 |     100 |     100 |                                                       
+  agent.service.ts                                                   |   82.55 |    69.23 |   66.66 |   83.52 | 110,112,119-126,162,177-178,199,201,203               
+  context-optimizer.service.ts                                       |   81.89 |    74.46 |   72.22 |   81.65 | 99-100,126-127,190-212,221-227,245,259                
+  intent-classifier.service.ts                                       |   86.66 |     75.4 |   78.57 |   87.05 | 60,83,111,177-184,273-274,278-279,319-320             
+ src/modules/engineering-assistant/services/data                     |   86.73 |    68.57 |   86.11 |   86.84 |                                                       
+  production-data.service.ts                                         |   96.29 |    62.85 |     100 |   96.15 | 126-127                                               
+  query-cache.service.ts                                             |   84.94 |    76.08 |      80 |   84.94 | 105-106,111-123,229,275,289                           
+  semantic-reranker.service.ts                                       |   79.59 |     62.5 |      90 |      80 | 86,149-174                                            
+ src/modules/engineering-assistant/services/execution                |   98.62 |    92.59 |   92.85 |   98.59 |                                                       
+  parameter-validator.service.ts                                     |   98.78 |    93.54 |     100 |   98.78 | 191,266                                               
+  tool-execution.service.ts                                          |   98.14 |    88.23 |    87.5 |   97.95 | 45                                                    
+ src/modules/engineering-assistant/services/personalization          |   98.24 |    76.31 |     100 |   98.21 |                                                       
+  user-behavior.service.ts                                           |     100 |    63.15 |     100 |     100 | 20,48-53,62-111                                       
+  user-personalization.service.ts                                    |      96 |    89.47 |     100 |      96 | 65                                                    
+ src/modules/engineering-assistant/services/quality                  |   88.55 |    75.36 |   91.66 |   92.09 |                                                       
+  factuality-checker.service.ts                                      |     100 |    72.72 |     100 |     100 | 89-100                                                
+  quality-scorer.service.ts                                          |    80.7 |    70.93 |    90.9 |   86.17 | 112-117,155-156,246,252,256,273-275                   
+  suggestion.service.ts                                              |   97.56 |       90 |      80 |    97.5 | 37                                                    
+ src/modules/engineering-assistant/tools                             |   89.58 |     62.5 |   88.88 |   89.36 |                                                       
+  ToolRegistry.ts                                                    |   89.58 |     62.5 |   88.88 |   89.36 | 40,65,78-80                                           
+ src/modules/engineering-assistant/tools/anomaly-report              |     100 |    85.29 |     100 |     100 |                                                       
+  anomaly-report.tool.ts                                             |     100 |    85.29 |     100 |     100 | 47-50,71,93-101                                       
+ src/modules/engineering-assistant/tools/at-risk-assets              |   96.87 |    83.33 |     100 |   96.77 |                                                       
+  at-risk-assets.tool.ts                                             |   96.87 |    83.33 |     100 |   96.77 | 74                                                    
+ src/modules/engineering-assistant/tools/clarify                     |     100 |      100 |     100 |     100 |                                                       
+  clarify.tool.ts                                                    |     100 |      100 |     100 |     100 |                                                       
+ src/modules/engineering-assistant/tools/operational-recommendations |   91.89 |    78.57 |     100 |   91.17 |                                                       
+  operational-recommendations.tool.ts                                |   91.89 |    78.57 |     100 |   91.17 | 85,93,108                                             
+ src/modules/engineering-assistant/tools/production-data             |   87.87 |    72.72 |     100 |   87.87 |                                                       
+  production-data.tool.ts                                            |   87.87 |    72.72 |     100 |   87.87 | 86,94-98,109                                          
+ src/modules/engineering-assistant/tools/sql                         |   97.22 |    91.66 |     100 |   97.22 |                                                       
+  sql.tool.ts                                                        |   97.22 |    91.66 |     100 |   97.22 | 62                                                    
+ src/modules/glossary                                                |   94.87 |    86.36 |     100 |   97.22 |                                                       
+  glossary.service.ts                                                |   94.87 |    86.36 |     100 |   97.22 | 23                                                    
+ src/modules/industrial-data/anomaly-reviews/controllers             |   89.24 |    77.14 |     100 |   89.24 |                                                       
+  anomaly-reviews.controller.ts                                      |   89.24 |    77.14 |     100 |   89.24 | 20,67,93,106,144,149,155,178,184,229                  
+ src/modules/industrial-data/anomaly-reviews/routes                  |     100 |      100 |     100 |     100 |                                                       
+  anomaly-reviews.routes.ts                                          |     100 |      100 |     100 |     100 |                                                       
+ src/modules/industrial-data/at-risk/controllers                     |   87.96 |    70.14 |     100 |      87 |                                                       
+  at-risk.controller.ts                                              |   87.96 |    70.14 |     100 |      87 | 22,28,82,122,207-208,220,226,232,248-249,261,274      
+ src/modules/industrial-data/at-risk/routes                          |     100 |      100 |     100 |     100 |                                                       
+  at-risk.routes.ts                                                  |     100 |      100 |     100 |     100 |                                                       
+ src/modules/industrial-data/dashboard/controllers                   |   88.88 |     87.5 |   84.61 |    88.7 |                                                       
+  dashboard.controller.ts                                            |   88.88 |     87.5 |   84.61 |    88.7 | 24,116-117,125-126,258-259                            
+ src/modules/industrial-data/dashboard/routes                        |     100 |      100 |     100 |     100 |                                                       
+  dashboard.routes.ts                                                |     100 |      100 |     100 |     100 |                                                       
+ src/modules/industrial-data/operational-recommendations/controllers |   96.26 |    95.74 |     100 |   96.26 |                                                       
+  operational-recommendations.controller.ts                          |   96.26 |    95.74 |     100 |   96.26 | 32,129,250,301                                        
+ src/modules/industrial-data/operational-recommendations/routes      |     100 |      100 |     100 |     100 |                                                       
+  operational-recommendations.routes.ts                              |     100 |      100 |     100 |     100 |                                                       
+ src/modules/industrial-data/production-forecasting/controllers      |     100 |      100 |     100 |     100 |                                                       
+  production-forecasting.controller.ts                               |     100 |      100 |     100 |     100 |                                                       
+ src/modules/industrial-data/production-forecasting/routes           |     100 |      100 |     100 |     100 |                                                       
+  production-forecasting.routes.ts                                   |     100 |      100 |     100 |     100 |                                                       
+ src/routes                                                          |     100 |      100 |     100 |     100 |                                                       
+  index.ts                                                           |     100 |      100 |     100 |     100 |                                                       
+ src/services                                                        |   91.34 |    92.85 |     100 |   91.17 |                                                       
+  chat.service.ts                                                    |     100 |      100 |     100 |     100 |                                                       
+  file.service.ts                                                    |   84.21 |    85.18 |     100 |   84.21 | 82-83,111-113,128-135                                 
+  prompt.service.ts                                                  |     100 |      100 |     100 |     100 |                                                       
+  storage.service.ts                                                 |     100 |      100 |     100 |     100 |                                                       
+ src/services/handlers                                               |    93.1 |    77.33 |   84.37 |   95.81 |                                                       
+  docx.handler.ts                                                    |    90.9 |       75 |     100 |    90.9 | 9                                                     
+  image.handler.ts                                                   |     100 |      100 |     100 |     100 |                                                       
+  pdf.handler.ts                                                     |   91.71 |    76.11 |   81.48 |   95.17 | 131,136,228,236-237,245,349                           
+  spreadsheet.handler.ts                                             |     100 |      100 |     100 |     100 |                                                       
+  text.handler.ts                                                    |     100 |      100 |     100 |     100 |                                                       
+ src/services/llm                                                    |   93.69 |    88.76 |     100 |   93.57 |                                                       
+  llm.service.ts                                                     |   93.69 |    88.76 |     100 |   93.57 | 216,282,294,342-344,363                               
+ src/services/rag                                                    |   83.33 |    72.72 |   66.66 |   84.31 |                                                       
+  rag.service.ts                                                     |   83.33 |    72.72 |   66.66 |   84.31 | 53-56,108,126,152-162                                 
+ src/services/utils                                                  |   89.67 |    83.43 |   88.63 |   91.15 |                                                       
+  response.postprocessor.ts                                          |   87.26 |    82.97 |     100 |   88.11 | 185-187,197-216,344,367                               
+  url.validator.ts                                                   |   92.74 |    84.12 |   82.14 |   94.87 | 83,272,286,307,332,350                                
+ src/utils                                                           |    94.3 |    84.89 |     100 |   95.36 |                                                       
+  AppError.ts                                                        |     100 |      100 |     100 |     100 |                                                       
+  askAssist.utils.ts                                                 |   91.26 |    80.35 |     100 |   92.98 | 12,29,33,37,41,59,199-200                             
+  extractChart.ts                                                    |   96.84 |    83.63 |     100 |   97.72 | 167-169                                               
+  logger.ts                                                          |     100 |      100 |     100 |     100 |                                                       
+  snowflake.ts                                                       |    90.9 |    95.65 |     100 |    90.9 | 41-42                                                 
+  text.utils.ts                                                      |     100 |      100 |     100 |     100 |                                                       
+ src/validators                                                      |     100 |      100 |     100 |     100 |                                                       
+  chat.validator.ts                                                  |     100 |      100 |     100 |     100 |                                                       
+---------------------------------------------------------------------|---------|----------|---------|---------|-------------------------------------------------------
+
+Test Suites: 64 passed, 64 total
+Tests:       5 skipped, 1130 passed, 1135 total
+Snapshots:   0 total
+Time:        18.576 s
+Ran all test suites.
